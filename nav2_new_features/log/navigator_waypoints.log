@@ -1,0 +1,921 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-12-27-19-52-41-036999-1_xterm-5038
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [5040]
+[INFO] [amcl-2]: process started with pid [5042]
+[INFO] [controller_server-3]: process started with pid [5044]
+[INFO] [planner_server-4]: process started with pid [5046]
+[INFO] [recoveries_server-5]: process started with pid [5048]
+[INFO] [bt_navigator-6]: process started with pid [5050]
+[INFO] [rviz2-7]: process started with pid [5052]
+[INFO] [waypoint_follower-8]: process started with pid [5089]
+[INFO] [lifecycle_manager-9]: process started with pid [5136]
+[map_server-1] [INFO] [1735329161.469326801] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1735329161.469412015] [map_server]: Creating
+[amcl-2] [INFO] [1735329161.467119321] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1735329161.467212352] [amcl]: Creating
+[controller_server-3] [INFO] [1735329161.493429964] [controller_server]: 
+[controller_server-3] 	controller_server lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735329161.498601726] [controller_server]: Creating controller server
+[planner_server-4] [INFO] [1735329161.476431196] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735329161.478686124] [planner_server]: Creating
+[planner_server-4] [INFO] [1735329161.510975167] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735329161.511622942] [global_costmap.global_costmap]: Creating Costmap
+[recoveries_server-5] [INFO] [1735329161.508975120] [recoveries_server]: 
+[recoveries_server-5] 	recoveries_server lifecycle node launched. 
+[recoveries_server-5] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735329161.481930884] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735329161.482032237] [bt_navigator]: Creating
+[rviz2-7] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[controller_server-3] [INFO] [1735329161.526671991] [local_costmap.local_costmap]: 
+[controller_server-3] 	local_costmap lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735329161.527366761] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-9] [INFO] [1735329161.549463984] [lifecycle_manager]: Creating
+[lifecycle_manager-9] [INFO] [1735329161.559331409] [lifecycle_manager]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[lifecycle_manager-9] [INFO] [1735329161.568892241] [lifecycle_manager]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-9] [INFO] [1735329161.568964022] [lifecycle_manager]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1735329161.569229277] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/install/map_server/share/map_server/maps/map.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -7
+[map_server-1] [DEBUG] [map_io]: origin[1]: -10.5
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.196
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/install/map_server/share/map_server/maps/map_rotated.pgm
+[map_server-1] [DEBUG] [map_io]: Read map /home/user/ros2_ws/install/map_server/share/map_server/maps/map_rotated.pgm: 286 X 423 map @ 0.05 m/cell
+[lifecycle_manager-9] [INFO] [1735329161.591033709] [lifecycle_manager]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1735329161.591257577] [amcl]: Configuring
+[amcl-2] [INFO] [1735329161.591369871] [amcl]: initTransforms
+[amcl-2] [INFO] [1735329161.596150089] [amcl]: initPubSub
+[amcl-2] [INFO] [1735329161.598709627] [amcl]: Subscribed to map topic.
+[lifecycle_manager-9] [INFO] [1735329161.606177277] [lifecycle_manager]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-3] [INFO] [1735329161.606433777] [controller_server]: Configuring controller interface
+[controller_server-3] [INFO] [1735329161.606749780] [controller_server]: getting goal checker plugins..
+[controller_server-3] [INFO] [1735329161.606963436] [controller_server]: Controller frequency set to 5.0000Hz
+[controller_server-3] [INFO] [1735329161.606998597] [local_costmap.local_costmap]: Configuring
+[controller_server-3] [INFO] [1735329161.610432535] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-3] [INFO] [1735329161.617809577] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[waypoint_follower-8] [INFO] [1735329161.630070528] [waypoint_follower]: 
+[waypoint_follower-8] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-8] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735329161.631577180] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-3] [INFO] [1735329161.631611045] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[waypoint_follower-8] [INFO] [1735329161.632741532] [waypoint_follower]: Creating
+[controller_server-3] [INFO] [1735329161.634587723] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-3] [INFO] [1735329161.641931681] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-3] [INFO] [1735329161.647803243] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[rviz2-7] [INFO] [1735329161.648809701] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1735329161.649253659] [rviz2]: OpenGl version: 3.1 (GLSL 1.4)
+[controller_server-3] [INFO] [1735329161.653008790] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-3] [INFO] [1735329161.655242974] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-3] [INFO] [1735329161.657763069] [controller_server]: Setting transform_tolerance to 0.200000
+[rviz2-7] [INFO] [1735329161.671589194] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-3] [INFO] [1735329161.674975520] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-3] [INFO] [1735329161.676281924] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.676611574] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-3] [INFO] [1735329161.677740472] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.677967317] [controller_server]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[controller_server-3] [INFO] [1735329161.678434616] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.678691216] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-3] [INFO] [1735329161.679491160] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.679738625] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-3] [INFO] [1735329161.680949597] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.681203339] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-3] [INFO] [1735329161.681682395] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.681927711] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-3] [INFO] [1735329161.682400305] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735329161.682436111] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1735329161.688052216] [lifecycle_manager]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1735329161.688313561] [planner_server]: Configuring
+[planner_server-4] [INFO] [1735329161.688352232] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1735329161.691315147] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1735329161.695927642] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1735329161.696646031] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1735329161.696678528] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735329161.697560680] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1735329161.701539088] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735329161.701571196] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1735329161.703208793] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1735329161.708862879] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1735329161.708903028] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735329161.712934374] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-9] [INFO] [1735329161.721097615] [lifecycle_manager]: [34m[1mConfiguring recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735329161.721358851] [recoveries_server]: Configuring
+[recoveries_server-5] [INFO] [1735329161.726107241] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-5] [INFO] [1735329161.727398596] [recoveries_server]: Configuring spin
+[recoveries_server-5] [INFO] [1735329161.730800264] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-5] [INFO] [1735329161.731779121] [recoveries_server]: Configuring backup
+[recoveries_server-5] [INFO] [1735329161.734966470] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-5] [INFO] [1735329161.735746582] [recoveries_server]: Configuring wait
+[lifecycle_manager-9] [INFO] [1735329161.738867969] [lifecycle_manager]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735329161.739090427] [bt_navigator]: Configuring
+[bt_navigator-6] [WARN] [1735329161.773533297] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[lifecycle_manager-9] [INFO] [1735329161.788988541] [lifecycle_manager]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-8] [INFO] [1735329161.789253473] [waypoint_follower]: Configuring
+[waypoint_follower-8] [INFO] [1735329161.802246828] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-9] [INFO] [1735329161.803290105] [lifecycle_manager]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1735329161.803555067] [map_server]: Activating
+[map_server-1] [INFO] [1735329161.804892681] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1735329161.804969354] [amcl]: Received a 286 X 423 map @ 0.050 m/pix
+[planner_server-4] [INFO] [1735329161.806259600] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 286 X 423 at 0.050000 m/pix
+[rviz2-7] [ERROR] [1735329161.845312209] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735329161.845420239] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.845575478] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.845683745] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735329161.845726751] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.845761793] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.845855688] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735329161.845895182] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.845925575] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.845997247] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735329161.846021228] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846052224] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846207410] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735329161.846245169] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846277039] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846349053] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735329161.846372921] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846396993] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846461206] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735329161.846483395] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846507955] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846580411] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735329161.846605157] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846641050] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846752548] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.846785110] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846813000] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846878906] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.846900550] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.846923410] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847108781] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.847137603] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847163679] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847236189] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.847258179] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847281383] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847398629] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.847422459] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847446375] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847534383] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.847557595] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847581483] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847701905] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.847725727] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847759214] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847823416] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735329161.847844072] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847866536] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.847983726] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae".
+[rviz2-7] [ERROR] [1735329161.848008927] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848033308] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae' for link 'mp_400_fixed_wheel_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848095487] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae".
+[rviz2-7] [ERROR] [1735329161.848115572] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848138170] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae' for link 'mp_400_fixed_wheel_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848259953] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae".
+[rviz2-7] [ERROR] [1735329161.848286091] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848310502] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae' for link 'mp_400_fixed_wheel_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848372527] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae".
+[rviz2-7] [ERROR] [1735329161.848392976] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735329161.848415191] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae' for link 'mp_400_fixed_wheel_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [INFO] [1735329161.858000274] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [ERROR] [1735329161.874651391] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-9] [INFO] [1735329161.909271731] [lifecycle_manager]: Server map_server connected with bond.
+[lifecycle_manager-9] [INFO] [1735329161.909334266] [lifecycle_manager]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1735329161.909595464] [amcl]: Activating
+[amcl-2] [INFO] [1735329161.909642817] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735329161.909672807] [amcl]: Setting pose (1693.210000): 0.000 -0.000 0.000
+[amcl-2] [INFO] [1735329161.911514287] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1735329161.913755498] [amcl]: createLaserObject
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-9] [INFO] [1735329162.014265261] [lifecycle_manager]: Server amcl connected with bond.
+[lifecycle_manager-9] [INFO] [1735329162.014320084] [lifecycle_manager]: [34m[1mActivating controller_server[0m[0m
+[controller_server-3] [INFO] [1735329162.014550461] [controller_server]: Activating
+[controller_server-3] [INFO] [1735329162.014586040] [local_costmap.local_costmap]: Activating
+[controller_server-3] [INFO] [1735329162.014601227] [local_costmap.local_costmap]: Checking transform
+[controller_server-3] [INFO] [1735329162.014705831] [local_costmap.local_costmap]: start
+[controller_server-3] [INFO] [1735329162.015678284] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rviz2-7] [INFO] [1735329162.038049761] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[lifecycle_manager-9] [INFO] [1735329162.118044273] [lifecycle_manager]: Server controller_server connected with bond.
+[lifecycle_manager-9] [INFO] [1735329162.118104298] [lifecycle_manager]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1735329162.118352983] [planner_server]: Activating
+[planner_server-4] [INFO] [1735329162.118392399] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1735329162.118407225] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1735329162.118474500] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1693.450000 but the earliest data is at time 1694.240000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735329162.162533194] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.140 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.193916965] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.150 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.226554268] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.190 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.258182875] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.230 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.289825512] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.260 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.322676771] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.290 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.353837406] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.320 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.385859102] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.360 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.417686942] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.390 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.450331492] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.420 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.481821708] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.450 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.513986938] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.480 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.546084421] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.520 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.578396306] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.550 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.610534482] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.580 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735329162.618515163] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1693.950000 but the earliest data is at time 1694.240000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735329162.642445906] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.610 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.674129134] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.640 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.705871883] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.670 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.738393469] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.710 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.770107974] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.740 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.802053370] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.770 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.833800983] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.800 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.865851042] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.830 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.897828456] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.870 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.930215300] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.900 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735329162.961752766] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.930 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735329163.118545319] [global_costmap.global_costmap]: start
+[rviz2-7] [INFO] [1735329163.160311358] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[planner_server-4] [INFO] [1735329163.169084350] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735329163.169136748] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1735329163.271711308] [lifecycle_manager]: Server planner_server connected with bond.
+[lifecycle_manager-9] [INFO] [1735329163.272398734] [lifecycle_manager]: [34m[1mActivating recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735329163.272675316] [recoveries_server]: Activating
+[recoveries_server-5] [INFO] [1735329163.272720040] [recoveries_server]: Activating spin
+[recoveries_server-5] [INFO] [1735329163.272740727] [recoveries_server]: Activating backup
+[recoveries_server-5] [INFO] [1735329163.272758406] [recoveries_server]: Activating wait
+[recoveries_server-5] [INFO] [1735329163.272775751] [recoveries_server]: Creating bond (recoveries_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1735329163.375792668] [lifecycle_manager]: Server recoveries_server connected with bond.
+[lifecycle_manager-9] [INFO] [1735329163.375847900] [lifecycle_manager]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735329163.376114702] [bt_navigator]: Activating
+[bt_navigator-6] [PublisherZMQ] Server quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [PublisherZMQ] Publisher quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [INFO] [1735329163.414062850] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1735329163.517287741] [lifecycle_manager]: Server bt_navigator connected with bond.
+[lifecycle_manager-9] [INFO] [1735329163.517357228] [lifecycle_manager]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-8] [INFO] [1735329163.517711550] [waypoint_follower]: Activating
+[waypoint_follower-8] [INFO] [1735329163.517764551] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1735329163.620967355] [lifecycle_manager]: Server waypoint_follower connected with bond.
+[lifecycle_manager-9] [INFO] [1735329163.621020480] [lifecycle_manager]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-9] [INFO] [1735329163.621040069] [lifecycle_manager]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-7] [INFO] [1735329171.013015332] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1693.320 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329171.220753579] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1693.530 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329171.439039395] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1693.750 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329171.538500514] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1693.850 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329171.740250456] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1694.050 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.651355970] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.960 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.684311938] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1693.990 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.724474655] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.030 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.753510654] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.060 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.783129363] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.090 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.812608909] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.120 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.842346686] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.150 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.871515265] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.180 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735329172.910999677] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1694.220 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-3] [WARN] [1735329173.014848086] [local_costmap.local_costmap]: Sensor origin: (1.16, -8.50, 0.14), out of map bounds. The costmap can't raytrace for it.
+[planner_server-4] [WARN] [1735329173.118735193] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329173.118783113] [global_costmap.global_costmap]: Sensor origin at (8.65, 6.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329174.118712896] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329174.118753231] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329175.118710965] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329175.118750175] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329176.118722627] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329176.118771024] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329177.118719392] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329177.118762561] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329178.118722069] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329178.118765942] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329179.118716771] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329179.118758525] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329180.118725649] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329180.118773980] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329181.118712083] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329181.118753130] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329182.118720607] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329182.118759260] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329183.118713609] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329183.118754827] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329184.118705707] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329184.118757906] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329185.118709321] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329185.118749436] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329186.118721578] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329186.118768746] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329187.118710016] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329187.118750945] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329188.118735491] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329188.118794147] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329189.118724384] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329189.118773097] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329190.118709338] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329190.118749738] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329191.118713199] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329191.118759807] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329192.118724418] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329192.118776299] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329193.118722176] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329193.118772483] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329194.118711398] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329194.118753416] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329195.118725136] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329195.118775147] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329196.118724177] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329196.118793703] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329197.118714270] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329197.118757672] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329198.118712109] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329198.118751897] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329199.118710350] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329199.118752874] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329200.118723296] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329200.118770815] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329201.118713555] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329201.118755213] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329202.118708390] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329202.118748060] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329203.118708729] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329203.118749556] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329204.118724422] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329204.118775090] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329205.118712271] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329205.118755379] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329206.118715399] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329206.118758234] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329207.118710219] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329207.118751986] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329208.118730907] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329208.118782363] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329209.118717594] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329209.118760991] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329210.118710567] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329210.118750610] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329211.118736866] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329211.118799935] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329212.118915082] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329212.118962750] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329213.118718355] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329213.118760582] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329214.118709495] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329214.118752534] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329215.118710624] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329215.118749898] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329216.118750440] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329216.118797972] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329217.118717566] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329217.118760607] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329218.118714707] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329218.118756265] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329219.118708399] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329219.118749978] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329220.118755936] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329220.118800157] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329221.118716859] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329221.118759307] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329222.118721108] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329222.118764058] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329223.118715360] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329223.118756730] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329224.118870642] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329224.118918607] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329225.118720675] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329225.118766622] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329226.118711619] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329226.118752588] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329227.118709125] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329227.118750925] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329228.118724587] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329228.118808020] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329229.118723204] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329229.118768884] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329230.118722156] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329230.118769455] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329231.118715095] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329231.118756591] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329232.118738525] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329232.118787245] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329233.118714912] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329233.118755288] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329234.118722757] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329234.118769187] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329235.118713007] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329235.118754212] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329236.118727514] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329236.118775984] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329237.118717271] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329237.118762239] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329238.118717017] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329238.118761498] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329239.118714806] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329239.118760604] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329240.118726650] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329240.118778591] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329241.118723343] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329241.118769034] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329242.118731164] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329242.118779500] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329243.118717452] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329243.118765101] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329244.118724853] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329244.118776265] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329245.118723202] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329245.118796825] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329246.118718393] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329246.118775122] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329247.118718432] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329247.118777727] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329248.118722033] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329248.118773185] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329249.118722009] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329249.118764736] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329250.118718345] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329250.118758951] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329251.118746604] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329251.118793324] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329252.118726309] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329252.118777235] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329253.118715695] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329253.118758771] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329254.118718501] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329254.118766228] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329255.118720927] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329255.118770165] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329256.118732617] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329256.118784384] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329257.118722984] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329257.118772680] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329258.118720485] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329258.118766977] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329259.118721698] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329259.118769786] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329260.118723340] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329260.118769596] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329261.118750304] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329261.118793157] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329262.118735091] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329262.118805924] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329263.118867838] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329263.118911282] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329264.118722837] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329264.118771079] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329265.118727236] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329265.118771759] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329266.118720946] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329266.118770355] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329267.118735055] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329267.118782127] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329268.118790223] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329268.118842188] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329269.118862807] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329269.118911326] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329270.118757480] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329270.118801444] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329271.118718788] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329271.118764044] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329272.118729192] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329272.118777161] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329273.118718980] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329273.118766476] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329274.118719933] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329274.118765434] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329275.118710055] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329275.118754030] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329276.118718345] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329276.118768851] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329277.118715040] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329277.118760697] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[planner_server-4] [WARN] [1735329278.118715360] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329278.118761455] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[amcl-2] [INFO] [1735329278.883203528] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1735329278.883362494] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1735329278.856476 but the latest data is at time 1810.160000, when looking up transform from frame [odom] to frame [base_footprint])
+[amcl-2] [INFO] [1735329278.883403953] [amcl]: Setting pose (1810.160000): 3.450 2.150 3.142
+[planner_server-4] [WARN] [1735329279.118695520] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [WARN] [1735329279.118767744] [global_costmap.global_costmap]: Sensor origin at (7.76, -3.85) is out of map bounds. The costmap cannot raytrace for it.
+[waypoint_follower-8] [INFO] [1735329283.001204357] [waypoint_follower]: Received follow waypoint request with 4 waypoints.
+[bt_navigator-6] [INFO] [1735329283.001851456] [bt_navigator]: Begin navigating from current location to (3.46, -0.45)
+[controller_server-3] [INFO] [1735329283.022839521] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [WARN] [1735329283.022904304] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-3] [INFO] [1735329284.223478583] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329285.223488446] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329286.223473916] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329287.223487828] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329288.223485585] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329289.223479101] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329290.423522031] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329291.423481348] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329292.423477066] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329293.423475310] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329294.423533823] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329295.423476913] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329296.423483544] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329297.623491794] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329298.229411617] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735329298.262050807] [bt_navigator]: Goal succeeded
+[waypoint_follower-8] [INFO] [1735329298.951359830] [waypoint_follower]: Succeeded processing waypoint 0, processing waypoint task execution
+[waypoint_follower-8] [INFO] [1735329298.951419886] [waypoint_follower]: Arrived at 0'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-8] [INFO] [1735329299.151481304] [waypoint_follower]: Task execution at waypoint 0 succeeded
+[waypoint_follower-8] [INFO] [1735329299.151544895] [waypoint_follower]: Handled task execution on waypoint 0, moving to next.
+[bt_navigator-6] [INFO] [1735329299.152043412] [bt_navigator]: Begin navigating from current location to (3.46, -2.20)
+[controller_server-3] [INFO] [1735329299.172957761] [controller_server]: Received a goal, begin computing control effort.
+[waypoint_follower-8] [INFO] [1735329300.005752534] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.056004274] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.106258265] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.156478440] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.206690375] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.256950238] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.307170394] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.357408746] [waypoint_follower]: Processing waypoint 1...
+[controller_server-3] [INFO] [1735329300.373402003] [controller_server]: Passing new path to controller.
+[waypoint_follower-8] [INFO] [1735329300.407993892] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.458237874] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.508468750] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.558709349] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.608918829] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.659125712] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.709335278] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.759607675] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.809868727] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.860078017] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.910297369] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329300.960502101] [waypoint_follower]: Processing waypoint 1...
+[controller_server-3] [INFO] [1735329301.377237716] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329302.373392203] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329303.373395763] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329304.373400905] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329305.373396938] [controller_server]: Passing new path to controller.
+[controller_server-3] [WARN] [1735329305.614864371] [local_costmap.local_costmap]: Sensor origin: (3.50, -1.77, 0.14), out of map bounds. The costmap can't raytrace for it.
+[controller_server-3] [WARN] [1735329305.773542045] [controller_server]: Resulting plan has 0 poses in it.
+[controller_server-3] [WARN] [1735329305.973479328] [controller_server]: Received plan with zero length
+[controller_server-3] [ERROR] [1735329305.973559360] [controller_server]: Controller patience exceeded
+[controller_server-3] [WARN] [1735329305.973629138] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735329305.992341283] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-3] [INFO] [1735329305.993103245] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [WARN] [1735329306.023525962] [controller_server]: Resulting plan has 0 poses in it.
+[controller_server-3] [WARN] [1735329306.193458817] [controller_server]: Received plan with zero length
+[controller_server-3] [INFO] [1735329306.393407561] [controller_server]: Passing new path to controller.
+[controller_server-3] [WARN] [1735329306.593515257] [controller_server]: Resulting plan has 0 poses in it.
+[controller_server-3] [WARN] [1735329306.793467170] [controller_server]: Received plan with zero length
+[controller_server-3] [ERROR] [1735329306.793529724] [controller_server]: Controller patience exceeded
+[controller_server-3] [WARN] [1735329306.793607428] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735329306.812852823] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735329306.813180247] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735329307.125658690] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 3.2062 Hz
+[controller_server-3] [INFO] [1735329307.143710070] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329308.344279366] [controller_server]: Passing new path to controller.
+[planner_server-4] [WARN] [1735329309.183103732] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735329309.183172693] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.46, -2.20)
+[planner_server-4] [WARN] [1735329309.183192050] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735329309.202318356] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735329310.124680987] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.0848 Hz
+[controller_server-3] [INFO] [1735329310.144267054] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329311.344266871] [controller_server]: Passing new path to controller.
+[amcl-2] [INFO] [1735329311.907651038] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1735329311.907742013] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1735329311.883255 but the latest data is at time 1843.180000, when looking up transform from frame [odom] to frame [base_footprint])
+[amcl-2] [INFO] [1735329311.907760006] [amcl]: Setting pose (1843.160000): 3.450 2.150 3.142
+[planner_server-4] [WARN] [1735329312.186847852] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735329312.186932701] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.46, -2.20)
+[planner_server-4] [WARN] [1735329312.186957581] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735329312.202303007] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-3] [WARN] [1735329312.944377261] [controller_server]: Resulting plan has 0 poses in it.
+[planner_server-4] [WARN] [1735329313.124299107] [planner_server]: Planner loop missed its desired rate of 20.0000 Hz. Current loop rate is 1.0854 Hz
+[controller_server-3] [INFO] [1735329313.144271802] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329314.344264380] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329315.344268468] [controller_server]: Passing new path to controller.
+[waypoint_follower-8] [INFO] [1735329315.951838377] [waypoint_follower]: Preempting the goal pose.
+[bt_navigator-6] [INFO] [1735329315.962237651] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1735329315.963316772] [bt_navigator]: Begin navigating from current location to (3.46, -0.45)
+[controller_server-3] [INFO] [1735329316.344272654] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329317.344270834] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329318.344276874] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329319.344266582] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329320.544278412] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329321.544268436] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329322.544267357] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329323.544270935] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329324.544270673] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329325.544274470] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329326.149395811] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735329326.182190510] [bt_navigator]: Goal succeeded
+[waypoint_follower-8] [INFO] [1735329326.851904962] [waypoint_follower]: Failed to process waypoint 0, moving to next.
+[bt_navigator-6] [INFO] [1735329326.903529719] [bt_navigator]: Begin navigating from current location to (3.46, -2.20)
+[controller_server-3] [INFO] [1735329326.924411747] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329328.125165983] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329329.124776398] [controller_server]: Passing new path to controller.
+[waypoint_follower-8] [INFO] [1735329330.001892717] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.051890734] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.101860393] [waypoint_follower]: Processing waypoint 1...
+[controller_server-3] [INFO] [1735329330.124777192] [controller_server]: Passing new path to controller.
+[waypoint_follower-8] [INFO] [1735329330.151883210] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.201877899] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.251878679] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.301870969] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.351872945] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.401890821] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.451892081] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.501886896] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.551881550] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.601874370] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.651871235] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.701880392] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.751885230] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.801874050] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.851883974] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.901908560] [waypoint_follower]: Processing waypoint 1...
+[waypoint_follower-8] [INFO] [1735329330.951876418] [waypoint_follower]: Processing waypoint 1...
+[controller_server-3] [INFO] [1735329331.124782439] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329332.124776023] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329333.124775516] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329334.324786289] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329335.324784467] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329336.324788851] [controller_server]: Passing new path to controller.
+[controller_server-3] [ERROR] [1735329337.124818682] [controller_server]: Failed to make progress
+[controller_server-3] [WARN] [1735329337.124927806] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735329337.143885212] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-3] [INFO] [1735329337.145089796] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329337.345584230] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329338.345590442] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329339.345584135] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329340.345625021] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329341.345585273] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329342.545587505] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329343.545586184] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329344.545585723] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329345.545583449] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329346.545587057] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329347.353125658] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735329347.384741932] [bt_navigator]: Goal succeeded
+[waypoint_follower-8] [INFO] [1735329348.051879831] [waypoint_follower]: Succeeded processing waypoint 1, processing waypoint task execution
+[waypoint_follower-8] [INFO] [1735329348.051938815] [waypoint_follower]: Arrived at 1'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-8] [INFO] [1735329348.252032350] [waypoint_follower]: Task execution at waypoint 1 succeeded
+[waypoint_follower-8] [INFO] [1735329348.252095060] [waypoint_follower]: Handled task execution on waypoint 1, moving to next.
+[bt_navigator-6] [INFO] [1735329348.252757696] [bt_navigator]: Begin navigating from current location to (3.66, -4.12)
+[controller_server-3] [INFO] [1735329348.273628981] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329349.474089279] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329350.474092468] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329351.474092153] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329352.474097432] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329353.474094159] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329354.474091255] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329355.474091871] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329356.674090164] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329357.674089290] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329358.674095273] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329359.674102318] [controller_server]: Passing new path to controller.
+[waypoint_follower-8] [INFO] [1735329360.002425453] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.052443345] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.102431767] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.152418705] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.202431883] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.252445888] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.302764083] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.352432005] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.402427999] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.452902580] [waypoint_follower]: Processing waypoint 2...
+[controller_server-3] [INFO] [1735329360.479345976] [controller_server]: Reached the goal!
+[waypoint_follower-8] [INFO] [1735329360.502447386] [waypoint_follower]: Processing waypoint 2...
+[bt_navigator-6] [INFO] [1735329360.512900619] [bt_navigator]: Goal succeeded
+[waypoint_follower-8] [INFO] [1735329360.552432417] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.602900151] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.652432038] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.702437528] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.752905016] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.802440253] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.852450868] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.902475024] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329360.952446644] [waypoint_follower]: Processing waypoint 2...
+[waypoint_follower-8] [INFO] [1735329361.152424282] [waypoint_follower]: Succeeded processing waypoint 2, processing waypoint task execution
+[waypoint_follower-8] [INFO] [1735329361.152471836] [waypoint_follower]: Arrived at 2'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-8] [INFO] [1735329361.352567738] [waypoint_follower]: Task execution at waypoint 2 succeeded
+[waypoint_follower-8] [INFO] [1735329361.352630815] [waypoint_follower]: Handled task execution on waypoint 2, moving to next.
+[bt_navigator-6] [INFO] [1735329361.354204272] [bt_navigator]: Begin navigating from current location to (3.66, -5.85)
+[controller_server-3] [INFO] [1735329361.376056352] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329362.577625725] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329363.577635261] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329364.577625171] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329365.577627398] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329366.577627561] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329367.577824337] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329368.777624820] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329369.777624348] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329370.777627175] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329371.777724777] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329372.777625110] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329373.183002613] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735329373.214373580] [bt_navigator]: Goal succeeded
+[waypoint_follower-8] [INFO] [1735329373.902958697] [waypoint_follower]: Succeeded processing waypoint 3, processing waypoint task execution
+[waypoint_follower-8] [INFO] [1735329373.903008358] [waypoint_follower]: Arrived at 3'th waypoint, sleeping for 200 milliseconds
+[waypoint_follower-8] [INFO] [1735329374.103102661] [waypoint_follower]: Task execution at waypoint 3 succeeded
+[waypoint_follower-8] [INFO] [1735329374.103178899] [waypoint_follower]: Handled task execution on waypoint 3, moving to next.
+[waypoint_follower-8] [INFO] [1735329374.103196416] [waypoint_follower]: Completed all 4 waypoints requested.
+[bt_navigator-6] [INFO] [1735329374.106988514] [bt_navigator]: Begin navigating from current location to (3.45, 2.15)
+[controller_server-3] [INFO] [1735329374.128918679] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329375.329514049] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329376.329508134] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329377.329508216] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329378.329517572] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329379.329488827] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329380.329511153] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329381.529517368] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329382.529573137] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329383.529508885] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329384.529554046] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329385.529526458] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329386.529514915] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329387.529511021] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329388.529520080] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329389.729507946] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329390.729515381] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329391.729515430] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329392.729521515] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329393.729509615] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329394.729510622] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329395.729508489] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329396.929515254] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329397.929516254] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329398.929515131] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329399.929522319] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329400.929511144] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329401.929514176] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329403.129519794] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329404.129521232] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329405.129512489] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329406.129516384] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329407.129510062] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329408.129509252] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329409.129508151] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329410.329519717] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329411.329510408] [controller_server]: Passing new path to controller.
+[controller_server-3] [ERROR] [1735329411.330352073] [controller_server]: Failed to make progress
+[controller_server-3] [WARN] [1735329411.330410128] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735329411.357317580] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-3] [INFO] [1735329411.358368874] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329412.358679480] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329413.358668495] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329414.358675140] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329415.358670584] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329416.358665366] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329417.358671195] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329418.558673222] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329419.558669776] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329420.558668669] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329421.558721009] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329422.558667607] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329423.558668809] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329424.758674975] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329425.758680799] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329426.758674658] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329427.758665907] [controller_server]: Passing new path to controller.
+[controller_server-3] [ERROR] [1735329428.358702814] [controller_server]: Failed to make progress
+[controller_server-3] [WARN] [1735329428.358818396] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735329428.377989471] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735329428.378158813] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [INFO] [1735329430.178479242] [recoveries_server]: spin completed successfully
+[controller_server-3] [INFO] [1735329430.228051354] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329431.428987820] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329432.428985445] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329433.428997615] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329434.428993151] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329435.428985403] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329436.428999026] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329437.628993995] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329438.628998236] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329439.628984128] [controller_server]: Passing new path to controller.
+[controller_server-3] [ERROR] [1735329440.229034947] [controller_server]: Failed to make progress
+[controller_server-3] [WARN] [1735329440.229131844] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735329440.247355201] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-3] [INFO] [1735329440.249570129] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [INFO] [1735329440.649890433] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329441.649891627] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329442.649893007] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329443.650363642] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329444.649893313] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329445.849891473] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735329445.856280827] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735329445.897142306] [bt_navigator]: Goal succeeded

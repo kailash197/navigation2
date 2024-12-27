@@ -1,0 +1,175 @@
+python3: can't open file 'ros2_ws/src/nav2_new_features/scripts/follow_waypoints.py': [Errno 2] No such file or directory
+[INFO] [1735329278.882956439] [basic_navigator]: Publishing Initial Pose
+[INFO] [1735329282.995954306] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1735329282.997346026] [basic_navigator]: Following 4 goals....
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Traceback (most recent call last):
+  File "/home/user/ros2_ws/src/nav2_new_features/scripts/follow_waypoints.py", line 95, in <module>
+    main()
+  File "/home/user/ros2_ws/src/nav2_new_features/scripts/follow_waypoints.py", line 69, in main
+    while not navigator.isTaskComplete():
+  File "/opt/ros/galactic/lib/python3.8/site-packages/nav2_simple_commander/robot_navigator.py", line 259, in isTaskComplete
+    rclpy.spin_until_future_complete(self, self.result_future, timeout_sec=0.10)
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/__init__.py", line 222, in spin_until_future_complete
+    executor.spin_until_future_complete(future, timeout_sec)
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/executors.py", line 292, in spin_until_future_complete
+    self.spin_once_until_future_complete(future, timeout_left)
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/executors.py", line 710, in spin_once_until_future_complete
+    self.spin_once(timeout_sec)
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/executors.py", line 699, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/executors.py", line 685, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/galactic/lib/python3.8/site-packages/rclpy/executors.py", line 553, in _wait_for_ready_callbacks
+    entity_count += waitable.get_num_entities()
+KeyboardInterrupt
+[INFO] [1735329311.907386355] [basic_navigator]: Publishing Initial Pose
+[INFO] [1735329315.935966895] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1735329315.937139518] [basic_navigator]: Following 4 goals....
+[INFO] [1735329374.105146574] [basic_navigator]: Navigating to goal: 3.45 2.15...
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 1/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 2/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 3/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Executing current waypoint: 4/4
+Inspection of shelves complete! Returning to start...
