@@ -919,3 +919,38 @@
 [controller_server-3] [INFO] [1735329445.849891473] [controller_server]: Passing new path to controller.
 [controller_server-3] [INFO] [1735329445.856280827] [controller_server]: Reached the goal!
 [bt_navigator-6] [INFO] [1735329445.897142306] [bt_navigator]: Goal succeeded
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[lifecycle_manager-9] [INFO] [1735332513.433942722] [rclcpp]: signal_handler(signal_value=2)
+[waypoint_follower-8] [INFO] [1735332513.433944561] [rclcpp]: signal_handler(signal_value=2)
+[bt_navigator-6] [INFO] [1735332513.433953009] [rclcpp]: signal_handler(signal_value=2)
+[recoveries_server-5] [INFO] [1735332513.433956752] [rclcpp]: signal_handler(signal_value=2)
+[planner_server-4] [INFO] [1735332513.433962658] [rclcpp]: signal_handler(signal_value=2)
+[amcl-2] [INFO] [1735332513.433968578] [rclcpp]: signal_handler(signal_value=2)
+[controller_server-3] [INFO] [1735332513.434001282] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [lifecycle_manager-9]: process has finished cleanly [pid 5136]
+[map_server-1] [INFO] [1735332513.434005602] [rclcpp]: signal_handler(signal_value=2)
+[rviz2-7] [INFO] [1735332513.433947558] [rclcpp]: signal_handler(signal_value=2)
+[map_server-1] [INFO] [1735332513.446472534] [map_server]: Destroying
+[planner_server-4] [INFO] [1735332513.449094378] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[planner_server-4] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[planner_server-4]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[waypoint_follower-8] [INFO] [1735332513.465354884] [waypoint_follower]: Destroying
+[recoveries_server-5] [INFO] [1735332513.471682976] [recoveries_server]: Destroying
+[controller_server-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[controller_server-3]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[planner_server-4] [INFO] [1735332513.506401922] [global_costmap.global_costmap]: Destroying
+[amcl-2] [INFO] [1735332513.517154422] [amcl]: Destroying
+[controller_server-3] [INFO] [1735332513.530643030] [local_costmap.local_costmap]: Destroying
+[planner_server-4] [INFO] [1735332513.565122425] [planner_server]: Destroying
+[controller_server-3] [INFO] [1735332513.581067571] [controller_server]: Destroying
+[bt_navigator-6] [INFO] [1735332513.615485883] [bt_navigator]: Destroying
+[INFO] [map_server-1]: process has finished cleanly [pid 5040]
+[INFO] [waypoint_follower-8]: process has finished cleanly [pid 5089]
+[INFO] [recoveries_server-5]: process has finished cleanly [pid 5048]
+[INFO] [amcl-2]: process has finished cleanly [pid 5042]
+[INFO] [rviz2-7]: process has finished cleanly [pid 5052]
+[INFO] [planner_server-4]: process has finished cleanly [pid 5046]
+[INFO] [controller_server-3]: process has finished cleanly [pid 5044]
+[bt_navigator-6] [PublisherZMQ] Server quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[ERROR] [bt_navigator-6]: process has died [pid 5050, exit code -11, cmd '/opt/ros/galactic/lib/nav2_bt_navigator/bt_navigator --ros-args -r __node:=bt_navigator --params-file /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config/bt_navigator.yaml --params-file /tmp/launch_params_dtvichjg'].
