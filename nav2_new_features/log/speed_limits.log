@@ -1,0 +1,1155 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-12-27-21-12-28-773634-1_xterm-15171
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-9]: process started with pid [15251]
+[INFO] [costmap_filter_info_server-10]: process started with pid [15254]
+[INFO] [map_server-1]: process started with pid [15173]
+[INFO] [amcl-2]: process started with pid [15175]
+[INFO] [controller_server-3]: process started with pid [15177]
+[INFO] [planner_server-4]: process started with pid [15179]
+[INFO] [recoveries_server-5]: process started with pid [15181]
+[INFO] [bt_navigator-6]: process started with pid [15183]
+[INFO] [rviz2-7]: process started with pid [15185]
+[INFO] [waypoint_follower-8]: process started with pid [15226]
+[INFO] [lifecycle_manager-11]: process started with pid [15268]
+[map_server-1] [INFO] [1735333949.278743976] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1735333949.278817629] [map_server]: Creating
+[amcl-2] [INFO] [1735333949.309565773] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1735333949.313178539] [amcl]: Creating
+[controller_server-3] [INFO] [1735333949.300311935] [controller_server]: 
+[controller_server-3] 	controller_server lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735333949.305277869] [controller_server]: Creating controller server
+[planner_server-4] [INFO] [1735333949.277384192] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735333949.279277320] [planner_server]: Creating
+[planner_server-4] [INFO] [1735333949.313009002] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735333949.313522551] [global_costmap.global_costmap]: Creating Costmap
+[recoveries_server-5] [INFO] [1735333949.321295577] [recoveries_server]: 
+[recoveries_server-5] 	recoveries_server lifecycle node launched. 
+[recoveries_server-5] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735333949.286305347] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735333949.286408070] [bt_navigator]: Creating
+[rviz2-7] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[waypoint_follower-8] [INFO] [1735333949.310820205] [waypoint_follower]: 
+[waypoint_follower-8] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-8] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-8] [INFO] [1735333949.311384345] [waypoint_follower]: Creating
+[costmap_filter_info_server-10] [0m[INFO] [1735333949.326950539] [costmap_filter_info_server]: This is costmap filter info publisher[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735333949.353674118] [costmap_filter_info_server]: 
+[costmap_filter_info_server-10] 	costmap_filter_info_server lifecycle node launched. 
+[costmap_filter_info_server-10] 	Waiting on external lifecycle transitions to activate
+[costmap_filter_info_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.[0m
+[lifecycle_manager-11] [INFO] [1735333949.353562933] [lifecycle_manager]: Creating
+[controller_server-3] [INFO] [1735333949.363776105] [local_costmap.local_costmap]: 
+[controller_server-3] 	local_costmap lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735333949.366386708] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-11] [INFO] [1735333949.366853946] [lifecycle_manager]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-9] [0m[INFO] [1735333949.376067411] [filter_mask_server]: 
+[map_server-9] 	filter_mask_server lifecycle node launched. 
+[map_server-9] 	Waiting on external lifecycle transitions to activate
+[map_server-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.[0m
+[map_server-9] [0m[INFO] [1735333949.376186638] [filter_mask_server]: Creating[0m
+[lifecycle_manager-11] [INFO] [1735333949.391141903] [lifecycle_manager]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1735333949.392510614] [lifecycle_manager]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1735333949.393583206] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/install/map_server/share/map_server/maps/map.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -7
+[map_server-1] [DEBUG] [map_io]: origin[1]: -10.5
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.196
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/install/map_server/share/map_server/maps/map_rotated.pgm
+[map_server-1] [DEBUG] [map_io]: Read map /home/user/ros2_ws/install/map_server/share/map_server/maps/map_rotated.pgm: 286 X 423 map @ 0.05 m/cell
+[lifecycle_manager-11] [INFO] [1735333949.428427079] [lifecycle_manager]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1735333949.428717736] [amcl]: Configuring
+[amcl-2] [INFO] [1735333949.428830514] [amcl]: initTransforms
+[amcl-2] [INFO] [1735333949.433467495] [amcl]: initPubSub
+[amcl-2] [INFO] [1735333949.436248812] [amcl]: Subscribed to map topic.
+[lifecycle_manager-11] [INFO] [1735333949.443222928] [lifecycle_manager]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-3] [INFO] [1735333949.443469883] [controller_server]: Configuring controller interface
+[controller_server-3] [INFO] [1735333949.443712649] [controller_server]: getting goal checker plugins..
+[controller_server-3] [INFO] [1735333949.443870654] [controller_server]: Controller frequency set to 5.0000Hz
+[controller_server-3] [INFO] [1735333949.443901999] [local_costmap.local_costmap]: Configuring
+[controller_server-3] [INFO] [1735333949.446961623] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-3] [INFO] [1735333949.451868905] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-3] [INFO] [1735333949.459711179] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-3] [INFO] [1735333949.459743769] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-3] [INFO] [1735333949.461306376] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-3] [INFO] [1735333949.461339529] [local_costmap.local_costmap]: Using costmap filter "keepout_filter"
+[controller_server-3] [INFO] [1735333949.463665994] [local_costmap.local_costmap]: Initialized costmap filter "keepout_filter"
+[controller_server-3] [INFO] [1735333949.470111103] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-3] [INFO] [1735333949.475680041] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-3] [INFO] [1735333949.480625133] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-3] [INFO] [1735333949.485597394] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-3] [INFO] [1735333949.488443979] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-3] [INFO] [1735333949.507618673] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-3] [INFO] [1735333949.509089217] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735333949.509390050] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-3] [INFO] [1735333949.510631582] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735333949.510946049] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-3] [INFO] [1735333949.511765888] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735333949.512532644] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-3] [INFO] [1735333949.513251036] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735333949.513500987] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-3] [INFO] [1735333949.514182610] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735333949.514475652] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-3] [INFO] [1735333949.515010687] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735333949.515038204] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-11] [INFO] [1735333949.521263580] [lifecycle_manager]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1735333949.521518312] [planner_server]: Configuring
+[planner_server-4] [INFO] [1735333949.521552575] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1735333949.524774820] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1735333949.529977938] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1735333949.530772758] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1735333949.530832583] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735333949.532578270] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[rviz2-7] [INFO] [1735333949.532632564] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1735333949.532715545] [rviz2]: OpenGl version: 3.1 (GLSL 1.4)
+[planner_server-4] [INFO] [1735333949.536907615] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735333949.536942198] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1735333949.539829343] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1735333949.539867366] [global_costmap.global_costmap]: Using costmap filter "speed_filter"
+[planner_server-4] [INFO] [1735333949.542769737] [global_costmap.global_costmap]: Initialized costmap filter "speed_filter"
+[planner_server-4] [INFO] [1735333949.550100586] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1735333949.550142277] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[rviz2-7] [INFO] [1735333949.554438588] [rviz2]: Stereo is NOT SUPPORTED
+[planner_server-4] [INFO] [1735333949.554923333] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-11] [INFO] [1735333949.561324655] [lifecycle_manager]: [34m[1mConfiguring recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735333949.561567265] [recoveries_server]: Configuring
+[recoveries_server-5] [INFO] [1735333949.567092657] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-5] [INFO] [1735333949.568201750] [recoveries_server]: Configuring spin
+[recoveries_server-5] [INFO] [1735333949.573853007] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-5] [INFO] [1735333949.574648930] [recoveries_server]: Configuring backup
+[recoveries_server-5] [INFO] [1735333949.578176679] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-5] [INFO] [1735333949.578915581] [recoveries_server]: Configuring wait
+[lifecycle_manager-11] [INFO] [1735333949.582818119] [lifecycle_manager]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735333949.583065602] [bt_navigator]: Configuring
+[bt_navigator-6] [WARN] [1735333949.622745996] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[lifecycle_manager-11] [INFO] [1735333949.635575022] [lifecycle_manager]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-8] [INFO] [1735333949.635873244] [waypoint_follower]: Configuring
+[waypoint_follower-8] [INFO] [1735333949.650403179] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-11] [INFO] [1735333949.652057049] [lifecycle_manager]: [34m[1mConfiguring filter_mask_server[0m[0m
+[map_server-9] [0m[INFO] [1735333949.652406457] [filter_mask_server]: Configuring[0m
+[map_server-9] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/src/nav2_pkgs/map_server/maps/map_speeds.yaml
+[map_server-9] [DEBUG] [map_io]: resolution: 0.05
+[map_server-9] [DEBUG] [map_io]: origin[0]: -7
+[map_server-9] [DEBUG] [map_io]: origin[1]: -10.5
+[map_server-9] [DEBUG] [map_io]: origin[2]: 0
+[map_server-9] [DEBUG] [map_io]: free_thresh: 0
+[map_server-9] [DEBUG] [map_io]: occupied_thresh: 1
+[map_server-9] [DEBUG] [map_io]: mode: scale
+[map_server-9] [DEBUG] [map_io]: negate: 0
+[map_server-9] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/src/nav2_pkgs/map_server/maps/map_speeds.pgm
+[map_server-9] [DEBUG] [map_io]: Read map /home/user/ros2_ws/src/nav2_pkgs/map_server/maps/map_speeds.pgm: 286 X 423 map @ 0.05 m/cell
+[lifecycle_manager-11] [INFO] [1735333949.681527541] [lifecycle_manager]: [34m[1mConfiguring costmap_filter_info_server[0m[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735333949.681813101] [costmap_filter_info_server]: Configuring[0m
+[lifecycle_manager-11] [INFO] [1735333949.684365325] [lifecycle_manager]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1735333949.684639810] [map_server]: Activating
+[map_server-1] [INFO] [1735333949.686203478] [map_server]: Creating bond (map_server) to lifecycle manager.
+[planner_server-4] [INFO] [1735333949.686354921] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 286 X 423 at 0.050000 m/pix
+[amcl-2] [INFO] [1735333949.686394396] [amcl]: Received a 286 X 423 map @ 0.050 m/pix
+[rviz2-7] [ERROR] [1735333949.737565231] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735333949.737677456] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.737797490] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.737893689] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735333949.737927179] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.737957791] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738030155] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735333949.738053216] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738081343] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738149359] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735333949.738171761] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738199003] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738343804] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735333949.738377076] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738427295] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738522554] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735333949.738560960] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738600618] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738697398] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735333949.738731059] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738764997] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738867682] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735333949.738903535] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.738954724] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739121471] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.739173467] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739218205] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739324048] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.739357573] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739399066] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739695414] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.739741156] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739785792] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739902571] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.739938582] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.739981549] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740173864] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.740214847] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740257370] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740360360] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.740392007] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740433617] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740625432] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.740667221] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740734097] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740853693] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735333949.740898140] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.740942691] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741167566] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae".
+[rviz2-7] [ERROR] [1735333949.741216041] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741266447] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae' for link 'mp_400_fixed_wheel_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741395874] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae".
+[rviz2-7] [ERROR] [1735333949.741429095] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741469547] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae' for link 'mp_400_fixed_wheel_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741661785] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae".
+[rviz2-7] [ERROR] [1735333949.741701532] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741743885] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae' for link 'mp_400_fixed_wheel_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741845602] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae".
+[rviz2-7] [ERROR] [1735333949.741875853] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735333949.741915232] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae' for link 'mp_400_fixed_wheel_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [INFO] [1735333949.752388411] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [ERROR] [1735333949.767612582] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[lifecycle_manager-11] [INFO] [1735333949.788510907] [lifecycle_manager]: Server map_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735333949.788563752] [lifecycle_manager]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1735333949.788824309] [amcl]: Activating
+[amcl-2] [INFO] [1735333949.788875172] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735333949.788912787] [amcl]: Setting pose (1417.520000): -0.000 -0.000 0.000
+[amcl-2] [INFO] [1735333949.790761293] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1735333949.794356862] [amcl]: createLaserObject
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-11] [INFO] [1735333949.894020718] [lifecycle_manager]: Server amcl connected with bond.
+[lifecycle_manager-11] [INFO] [1735333949.894075145] [lifecycle_manager]: [34m[1mActivating controller_server[0m[0m
+[controller_server-3] [INFO] [1735333949.894358149] [controller_server]: Activating
+[controller_server-3] [INFO] [1735333949.894415032] [local_costmap.local_costmap]: Activating
+[controller_server-3] [INFO] [1735333949.894430993] [local_costmap.local_costmap]: Checking transform
+[controller_server-3] [INFO] [1735333949.894535143] [local_costmap.local_costmap]: start
+[controller_server-3] [INFO] [1735333949.894925157] [local_costmap.local_costmap]: KeepoutFilter: Subscribing to "/costmap_filter_info" topic for filter info...
+[controller_server-3] [WARN] [1735333949.895526012] [local_costmap.local_costmap]: KeepoutFilter: Filter mask was not received
+[rviz2-7] [INFO] [1735333949.930608128] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[controller_server-3] [INFO] [1735333949.945480684] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735333950.048979770] [lifecycle_manager]: Server controller_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735333950.049038338] [lifecycle_manager]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1735333950.049309912] [planner_server]: Activating
+[planner_server-4] [INFO] [1735333950.049351764] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1735333950.049368472] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1735333950.049438305] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1417.850000 but the earliest data is at time 1418.590000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735333950.054224099] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.510 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.085870826] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.530 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.118000408] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.560 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.150908630] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.590 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.182593430] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.620 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.214235418] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.660 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.246495337] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.690 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.277822555] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.720 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.309820108] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.750 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.342664106] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.780 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.374006728] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.820 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.406601678] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.840 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.438457322] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.880 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.469612813] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.910 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.502153505] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.950 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.534044093] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.980 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735333950.549476629] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1418.350000 but the earliest data is at time 1418.590000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735333950.566536364] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.010 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.598153995] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.040 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.630068856] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.060 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.662563686] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.090 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.693778232] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.140 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.726437440] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.170 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.758622520] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.200 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.789892104] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.220 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.822070093] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.250 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735333950.854360380] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.280 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735333951.049526657] [global_costmap.global_costmap]: start
+[planner_server-4] [INFO] [1735333951.050268147] [global_costmap.global_costmap]: SpeedFilter: Subscribing to "/costmap_filter_info" topic for filter info...
+[planner_server-4] [WARN] [1735333951.056788109] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[rviz2-7] [INFO] [1735333951.083649984] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[planner_server-4] [INFO] [1735333951.101292746] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735333951.101347645] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735333951.204512286] [lifecycle_manager]: Server planner_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735333951.204573604] [lifecycle_manager]: [34m[1mActivating recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735333951.205389507] [recoveries_server]: Activating
+[recoveries_server-5] [INFO] [1735333951.205446185] [recoveries_server]: Activating spin
+[recoveries_server-5] [INFO] [1735333951.205460089] [recoveries_server]: Activating backup
+[recoveries_server-5] [INFO] [1735333951.205474069] [recoveries_server]: Activating wait
+[recoveries_server-5] [INFO] [1735333951.205486829] [recoveries_server]: Creating bond (recoveries_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735333951.309564922] [lifecycle_manager]: Server recoveries_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735333951.309647071] [lifecycle_manager]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735333951.309982803] [bt_navigator]: Activating
+[bt_navigator-6] [PublisherZMQ] Publisher quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [INFO] [1735333951.355582150] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735333951.459742330] [lifecycle_manager]: Server bt_navigator connected with bond.
+[lifecycle_manager-11] [INFO] [1735333951.459802531] [lifecycle_manager]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-8] [INFO] [1735333951.460201270] [waypoint_follower]: Activating
+[waypoint_follower-8] [INFO] [1735333951.460251357] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735333951.564559415] [lifecycle_manager]: Server waypoint_follower connected with bond.
+[lifecycle_manager-11] [INFO] [1735333951.564623483] [lifecycle_manager]: [34m[1mActivating filter_mask_server[0m[0m
+[map_server-9] [0m[INFO] [1735333951.564973570] [filter_mask_server]: Activating[0m
+[map_server-9] [0m[INFO] [1735333951.565216673] [filter_mask_server]: Creating bond (filter_mask_server) to lifecycle manager.[0m
+[lifecycle_manager-11] [INFO] [1735333951.669971870] [lifecycle_manager]: Server filter_mask_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735333951.670039738] [lifecycle_manager]: [34m[1mActivating costmap_filter_info_server[0m[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735333951.670356751] [costmap_filter_info_server]: Activating[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735333951.670578236] [costmap_filter_info_server]: Creating bond (costmap_filter_info_server) to lifecycle manager.[0m
+[controller_server-3] [INFO] [1735333951.670574860] [local_costmap.local_costmap]: KeepoutFilter: Received filter info from /costmap_filter_info topic.
+[controller_server-3] [ERROR] [1735333951.670647478] [local_costmap.local_costmap]: KeepoutFilter: For proper use of keepout filter base and multiplier in CostmapFilterInfo message should be set to their default values (0.000000 and 1.000000)
+[controller_server-3] [INFO] [1735333951.670662590] [local_costmap.local_costmap]: KeepoutFilter: Subscribing to "/speed_filter_mask" topic for filter mask...
+[planner_server-4] [INFO] [1735333951.670586611] [global_costmap.global_costmap]: SpeedFilter: Received filter info from /costmap_filter_info topic.
+[planner_server-4] [INFO] [1735333951.670625056] [global_costmap.global_costmap]: SpeedFilter: Using expressed in a percent from maximum speedspeed_limit = 100.000000 + filter_mask_data * -1.000000
+[planner_server-4] [INFO] [1735333951.670639879] [global_costmap.global_costmap]: SpeedFilter: Subscribing to "/speed_filter_mask" topic for filter mask...
+[planner_server-4] [INFO] [1735333951.680438985] [global_costmap.global_costmap]: SpeedFilter: Received filter mask from /speed_filter_mask topic.
+[controller_server-3] [INFO] [1735333951.680500197] [local_costmap.local_costmap]: KeepoutFilter: Received filter mask from /speed_filter_mask topic.
+[lifecycle_manager-11] [INFO] [1735333951.775086106] [lifecycle_manager]: Server costmap_filter_info_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735333951.775135780] [lifecycle_manager]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1735333951.775156918] [lifecycle_manager]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-7] [INFO] [1735333958.831543669] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1417.620 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333959.042108859] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1417.830 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333959.255611844] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1418.040 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [INFO] [1735333959.449349063] [amcl_rclcpp_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1417.240 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333959.474059501] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1418.250 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333959.663759940] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1418.450 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.500127655] [rviz2]: Setting estimate pose: Frame:map, Position(2.76404, 1.72041, 0), Orientation(0, 0, -0.999658, 0.0261341) = Angle: -3.08932
+[amcl-2] [INFO] [1735333960.500309716] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735333960.500375019] [amcl]: Setting pose (1428.290000): 2.764 1.720 -3.089
+[rviz2-7] [INFO] [1735333960.529014281] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.320 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.558730946] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.350 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.589589023] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.380 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.628949124] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.420 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.658647530] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.450 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.698258276] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.490 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.727958251] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.520 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.757944523] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.550 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735333960.792319139] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1418.580 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334079.212725056] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[rviz2-7] [INFO] [1735334143.599989992] [rviz2]: Setting goal pose: Frame:map, Position(-1.63106, -3.76866, 0), Orientation(0, 0, -0.507701, 0.861534) = Angle: -1.06503
+[bt_navigator-6] [INFO] [1735334143.600602374] [bt_navigator]: Begin navigating from current location to (-1.63, -3.77)
+[controller_server-3] [INFO] [1735334143.621931021] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [WARN] [1735334143.621996652] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-3] [INFO] [1735334144.822872466] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334145.822872169] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334146.822877784] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334147.822886394] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334148.822877067] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334149.822874041] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334151.022880993] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334152.022879831] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334153.022875963] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334154.022872738] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334155.022878843] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334156.022873722] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334157.022882432] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334158.222872260] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334159.222876350] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334160.222876716] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334161.222871971] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334162.222885996] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334163.222874612] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334164.222874118] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334165.422881742] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334166.422877382] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334167.422917702] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334168.422876947] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334169.422874982] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334170.422871348] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334171.622881361] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334172.622881430] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334173.622873283] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334174.622868857] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334175.622872763] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334176.622875133] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334177.622872735] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334178.822882888] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334179.822873827] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334180.822877217] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334181.822871876] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334182.822873461] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334183.822873392] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334184.822882607] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334186.022872005] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334187.022872584] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334188.022874798] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334189.022874784] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334190.022880930] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334191.022882559] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334192.022873089] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334193.222871148] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334194.222881968] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334195.222877432] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334196.222871424] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334197.222877779] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334198.222887843] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334199.422872698] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334200.422874991] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334200.428930284] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735334200.470778322] [bt_navigator]: Goal succeeded
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[map_server-9] [0m[INFO] [1735334242.233510977] [rclcpp]: signal_handler(signal_value=2)[0m
+[lifecycle_manager-11] [INFO] [1735334242.233503153] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 15268]
+[waypoint_follower-8] [INFO] [1735334242.233517077] [rclcpp]: signal_handler(signal_value=2)
+[bt_navigator-6] [INFO] [1735334242.233526026] [rclcpp]: signal_handler(signal_value=2)
+[recoveries_server-5] [INFO] [1735334242.233534608] [rclcpp]: signal_handler(signal_value=2)
+[planner_server-4] [INFO] [1735334242.233540153] [rclcpp]: signal_handler(signal_value=2)
+[amcl-2] [INFO] [1735334242.233554618] [rclcpp]: signal_handler(signal_value=2)
+[rviz2-7] [INFO] [1735334242.233579486] [rclcpp]: signal_handler(signal_value=2)
+[costmap_filter_info_server-10] [0m[INFO] [1735334242.233506448] [rclcpp]: signal_handler(signal_value=2)[0m
+[map_server-1] [INFO] [1735334242.233953285] [rclcpp]: signal_handler(signal_value=2)
+[controller_server-3] [INFO] [1735334242.234505253] [rclcpp]: signal_handler(signal_value=2)
+[costmap_filter_info_server-10] [0m[INFO] [1735334242.239990441] [costmap_filter_info_server]: Destroying[0m
+[map_server-9] [0m[INFO] [1735334242.244892850] [filter_mask_server]: Destroying[0m
+[planner_server-4] [INFO] [1735334242.243085528] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[map_server-1] [INFO] [1735334242.250601483] [map_server]: Destroying
+[planner_server-4] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[planner_server-4]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[planner_server-4] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[planner_server-4]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[recoveries_server-5] [INFO] [1735334242.286660770] [recoveries_server]: Destroying
+[waypoint_follower-8] [INFO] [1735334242.291215320] [waypoint_follower]: Destroying
+[planner_server-4] [INFO] [1735334242.310763446] [global_costmap.global_costmap]: Destroying
+[controller_server-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[controller_server-3]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[controller_server-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[controller_server-3]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[amcl-2] [INFO] [1735334242.354188679] [amcl]: Destroying
+[controller_server-3] [INFO] [1735334242.363833875] [local_costmap.local_costmap]: Destroying
+[planner_server-4] [INFO] [1735334242.372581196] [planner_server]: Destroying
+[controller_server-3] [INFO] [1735334242.423261214] [controller_server]: Destroying
+[bt_navigator-6] [INFO] [1735334242.437625999] [bt_navigator]: Destroying
+[INFO] [costmap_filter_info_server-10]: process has finished cleanly [pid 15254]
+[INFO] [map_server-9]: process has finished cleanly [pid 15251]
+[INFO] [map_server-1]: process has finished cleanly [pid 15173]
+[INFO] [waypoint_follower-8]: process has finished cleanly [pid 15226]
+[INFO] [recoveries_server-5]: process has finished cleanly [pid 15181]
+[INFO] [amcl-2]: process has finished cleanly [pid 15175]
+[INFO] [rviz2-7]: process has finished cleanly [pid 15185]
+[INFO] [planner_server-4]: process has finished cleanly [pid 15179]
+[bt_navigator-6] [PublisherZMQ] Server quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] terminate called after throwing an instance of 'std::system_error'
+[bt_navigator-6]   what():  Invalid argument
+[INFO] [controller_server-3]: process has finished cleanly [pid 15177]
+[ERROR] [bt_navigator-6]: process has died [pid 15183, exit code -6, cmd '/opt/ros/galactic/lib/nav2_bt_navigator/bt_navigator --ros-args -r __node:=bt_navigator --params-file /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config/bt_navigator.yaml --params-file /tmp/launch_params_om409q79'].
+
+
+
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-12-27-21-18-19-777597-1_xterm-16093
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-9]: process started with pid [16111]
+[INFO] [costmap_filter_info_server-10]: process started with pid [16183]
+[INFO] [map_server-1]: process started with pid [16095]
+[INFO] [amcl-2]: process started with pid [16097]
+[INFO] [controller_server-3]: process started with pid [16099]
+[INFO] [planner_server-4]: process started with pid [16101]
+[INFO] [recoveries_server-5]: process started with pid [16103]
+[INFO] [bt_navigator-6]: process started with pid [16105]
+[INFO] [rviz2-7]: process started with pid [16107]
+[INFO] [waypoint_follower-8]: process started with pid [16109]
+[INFO] [lifecycle_manager-11]: process started with pid [16190]
+[map_server-1] [INFO] [1735334300.280674798] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1735334300.280772120] [map_server]: Creating
+[amcl-2] [INFO] [1735334300.283550152] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1735334300.283644216] [amcl]: Creating
+[controller_server-3] [INFO] [1735334300.284276111] [controller_server]: 
+[controller_server-3] 	controller_server lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735334300.289414841] [controller_server]: Creating controller server
+[controller_server-3] [INFO] [1735334300.298576191] [local_costmap.local_costmap]: 
+[controller_server-3] 	local_costmap lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735334300.299169761] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-4] [INFO] [1735334300.281431088] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735334300.282769188] [planner_server]: Creating
+[planner_server-4] [INFO] [1735334300.310050070] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735334300.310556319] [global_costmap.global_costmap]: Creating Costmap
+[bt_navigator-6] [INFO] [1735334300.322359918] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735334300.322731718] [bt_navigator]: Creating
+[rviz2-7] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[costmap_filter_info_server-10] [0m[INFO] [1735334300.320331006] [costmap_filter_info_server]: This is costmap filter info publisher[0m
+[waypoint_follower-8] [INFO] [1735334300.359085362] [waypoint_follower]: 
+[waypoint_follower-8] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-8] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-8] [INFO] [1735334300.361291628] [waypoint_follower]: Creating
+[lifecycle_manager-11] [INFO] [1735334300.364329665] [lifecycle_manager]: Creating
+[lifecycle_manager-11] [INFO] [1735334300.368945927] [lifecycle_manager]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-9] [0m[INFO] [1735334300.376636199] [filter_mask_server]: 
+[map_server-9] 	filter_mask_server lifecycle node launched. 
+[map_server-9] 	Waiting on external lifecycle transitions to activate
+[map_server-9] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.[0m
+[map_server-9] [0m[INFO] [1735334300.377614812] [filter_mask_server]: Creating[0m
+[recoveries_server-5] [INFO] [1735334300.398379902] [recoveries_server]: 
+[recoveries_server-5] 	recoveries_server lifecycle node launched. 
+[recoveries_server-5] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-11] [INFO] [1735334300.402864603] [lifecycle_manager]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-11] [INFO] [1735334300.402914352] [lifecycle_manager]: [34m[1mConfiguring map_server[0m[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735334300.413561679] [costmap_filter_info_server]: 
+[costmap_filter_info_server-10] 	costmap_filter_info_server lifecycle node launched. 
+[costmap_filter_info_server-10] 	Waiting on external lifecycle transitions to activate
+[costmap_filter_info_server-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.[0m
+[map_server-1] [INFO] [1735334300.419866941] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/install/map_server/share/map_server/maps/map.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -7
+[map_server-1] [DEBUG] [map_io]: origin[1]: -10.5
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.196
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/install/map_server/share/map_server/maps/map_rotated.pgm
+[map_server-1] [DEBUG] [map_io]: Read map /home/user/ros2_ws/install/map_server/share/map_server/maps/map_rotated.pgm: 286 X 423 map @ 0.05 m/cell
+[lifecycle_manager-11] [INFO] [1735334300.442167406] [lifecycle_manager]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1735334300.442398130] [amcl]: Configuring
+[amcl-2] [INFO] [1735334300.442485927] [amcl]: initTransforms
+[amcl-2] [INFO] [1735334300.448501189] [amcl]: initPubSub
+[amcl-2] [INFO] [1735334300.450980589] [amcl]: Subscribed to map topic.
+[lifecycle_manager-11] [INFO] [1735334300.457041814] [lifecycle_manager]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-3] [INFO] [1735334300.457290841] [controller_server]: Configuring controller interface
+[controller_server-3] [INFO] [1735334300.457518693] [controller_server]: getting goal checker plugins..
+[controller_server-3] [INFO] [1735334300.457671163] [controller_server]: Controller frequency set to 5.0000Hz
+[controller_server-3] [INFO] [1735334300.457704806] [local_costmap.local_costmap]: Configuring
+[controller_server-3] [INFO] [1735334300.462025775] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-3] [INFO] [1735334300.466019663] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-3] [INFO] [1735334300.475232875] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-3] [INFO] [1735334300.475269154] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-3] [INFO] [1735334300.476996691] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-3] [INFO] [1735334300.477033746] [local_costmap.local_costmap]: Using costmap filter "keepout_filter"
+[controller_server-3] [INFO] [1735334300.479297786] [local_costmap.local_costmap]: Initialized costmap filter "keepout_filter"
+[controller_server-3] [INFO] [1735334300.486179451] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-3] [INFO] [1735334300.493222933] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-3] [INFO] [1735334300.499190944] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-3] [INFO] [1735334300.502253234] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-3] [INFO] [1735334300.504626824] [controller_server]: Setting transform_tolerance to 0.200000
+[rviz2-7] [INFO] [1735334300.516766874] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1735334300.517647659] [rviz2]: OpenGl version: 3.1 (GLSL 1.4)
+[controller_server-3] [INFO] [1735334300.523736276] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-3] [INFO] [1735334300.525044933] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735334300.525308013] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-3] [INFO] [1735334300.526513023] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735334300.527285325] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-3] [INFO] [1735334300.528063048] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735334300.528311611] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-3] [INFO] [1735334300.529068800] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735334300.529358064] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-3] [INFO] [1735334300.529875927] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735334300.530195418] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-3] [INFO] [1735334300.530744786] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735334300.530776143] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-11] [INFO] [1735334300.536740949] [lifecycle_manager]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1735334300.536956089] [planner_server]: Configuring
+[planner_server-4] [INFO] [1735334300.536991848] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1735334300.540283061] [global_costmap.global_costmap]: Using plugin "static_layer"
+[rviz2-7] [INFO] [1735334300.541490471] [rviz2]: Stereo is NOT SUPPORTED
+[planner_server-4] [INFO] [1735334300.544831396] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1735334300.545554401] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1735334300.545588495] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735334300.546892340] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1735334300.552875747] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735334300.552910161] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1735334300.554754525] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1735334300.554785114] [global_costmap.global_costmap]: Using costmap filter "speed_filter"
+[planner_server-4] [INFO] [1735334300.557322817] [global_costmap.global_costmap]: Initialized costmap filter "speed_filter"
+[planner_server-4] [INFO] [1735334300.565426584] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1735334300.565478603] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735334300.571215593] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-11] [INFO] [1735334300.579907979] [lifecycle_manager]: [34m[1mConfiguring recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735334300.580202848] [recoveries_server]: Configuring
+[recoveries_server-5] [INFO] [1735334300.589387133] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-5] [INFO] [1735334300.590730100] [recoveries_server]: Configuring spin
+[recoveries_server-5] [INFO] [1735334300.596425206] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-5] [INFO] [1735334300.597254805] [recoveries_server]: Configuring backup
+[recoveries_server-5] [INFO] [1735334300.600272749] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-5] [INFO] [1735334300.601130633] [recoveries_server]: Configuring wait
+[lifecycle_manager-11] [INFO] [1735334300.606259003] [lifecycle_manager]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735334300.606505257] [bt_navigator]: Configuring
+[bt_navigator-6] [WARN] [1735334300.650163674] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[lifecycle_manager-11] [INFO] [1735334300.672221700] [lifecycle_manager]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-8] [INFO] [1735334300.672575170] [waypoint_follower]: Configuring
+[waypoint_follower-8] [INFO] [1735334300.688363237] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-11] [INFO] [1735334300.689747553] [lifecycle_manager]: [34m[1mConfiguring filter_mask_server[0m[0m
+[map_server-9] [0m[INFO] [1735334300.690032094] [filter_mask_server]: Configuring[0m
+[map_server-9] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/src/nav2_pkgs/map_server/maps/map_speeds.yaml
+[map_server-9] [DEBUG] [map_io]: resolution: 0.05
+[map_server-9] [DEBUG] [map_io]: origin[0]: -7
+[map_server-9] [DEBUG] [map_io]: origin[1]: -10.5
+[map_server-9] [DEBUG] [map_io]: origin[2]: 0
+[map_server-9] [DEBUG] [map_io]: free_thresh: 0
+[map_server-9] [DEBUG] [map_io]: occupied_thresh: 1
+[map_server-9] [DEBUG] [map_io]: mode: scale
+[map_server-9] [DEBUG] [map_io]: negate: 0
+[map_server-9] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/src/nav2_pkgs/map_server/maps/map_speeds.pgm
+[map_server-9] [DEBUG] [map_io]: Read map /home/user/ros2_ws/src/nav2_pkgs/map_server/maps/map_speeds.pgm: 286 X 423 map @ 0.05 m/cell
+[lifecycle_manager-11] [INFO] [1735334300.716759091] [lifecycle_manager]: [34m[1mConfiguring costmap_filter_info_server[0m[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735334300.717261655] [costmap_filter_info_server]: Configuring[0m
+[lifecycle_manager-11] [INFO] [1735334300.720126638] [lifecycle_manager]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1735334300.720373104] [map_server]: Activating
+[map_server-1] [INFO] [1735334300.722257049] [map_server]: Creating bond (map_server) to lifecycle manager.
+[planner_server-4] [INFO] [1735334300.722389499] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 286 X 423 at 0.050000 m/pix
+[amcl-2] [INFO] [1735334300.723069745] [amcl]: Received a 286 X 423 map @ 0.050 m/pix
+[rviz2-7] [ERROR] [1735334300.737584913] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735334300.737770840] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.737948695] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738095092] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735334300.738151543] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738200461] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738320500] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735334300.738358375] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738388657] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738466461] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae".
+[rviz2-7] [ERROR] [1735334300.738491587] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738516729] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae' for link 'base_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-BODY.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738666609] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735334300.738696909] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738723217] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738795117] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735334300.738827199] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738863265] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.738958178] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735334300.738991130] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739034947] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739130150] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae".
+[rviz2-7] [ERROR] [1735334300.739162151] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739209934] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae' for link 'lidar_1_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/SICK-MICROSCAN3.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739368842] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.739409295] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739446869] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739584652] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.739620635] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739658175] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739915400] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.739957332] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.739997676] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740108782] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.740145976] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740180348] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_back_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740384504] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.740425862] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740464242] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740563056] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.740597001] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740634164] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740817804] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.740855809] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.740905994] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741007717] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae".
+[rviz2-7] [ERROR] [1735334300.741042118] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741079816] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae' for link 'mp_400_caster_wheel_front_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-CASTER-WHEEL.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741262208] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae".
+[rviz2-7] [ERROR] [1735334300.741303785] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741342436] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae' for link 'mp_400_fixed_wheel_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741441168] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae".
+[rviz2-7] [ERROR] [1735334300.741474784] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741510667] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae' for link 'mp_400_fixed_wheel_left_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-LEFT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741705379] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae".
+[rviz2-7] [ERROR] [1735334300.741748005] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741787313] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae' for link 'mp_400_fixed_wheel_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741885463] [rviz2]: Could not load resource [package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae]: Unable to open file "package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae".
+[rviz2-7] [ERROR] [1735334300.741919512] [rviz2]: FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] [ERROR] [1735334300.741955417] [rviz2]: could not load model 'package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae' for link 'mp_400_fixed_wheel_right_link': FileNotFoundException: Cannot locate resource package://neo_simulation2/robots/mp_400/meshes/MP-400-FIXED-WHEEL-RIGHT.dae in resource group OgreAutodetect. in ResourceGroupManager::openResource at /tmp/binarydeb/ros-galactic-rviz-ogre-vendor-8.5.0/obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/src/OgreResourceGroupManager.cpp (line 703)
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [INFO] [1735334300.753632333] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [ERROR] [1735334300.767477356] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-11] [INFO] [1735334300.825994185] [lifecycle_manager]: Server map_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735334300.826047673] [lifecycle_manager]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1735334300.826308062] [amcl]: Activating
+[amcl-2] [INFO] [1735334300.826353133] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735334300.826381859] [amcl]: Setting pose (1768.450000): 0.000 0.000 0.000
+[amcl-2] [INFO] [1735334300.828762081] [amcl]: Creating bond (amcl) to lifecycle manager.
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[amcl-2] [INFO] [1735334300.831818523] [amcl]: createLaserObject
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-11] [INFO] [1735334300.932454950] [lifecycle_manager]: Server amcl connected with bond.
+[lifecycle_manager-11] [INFO] [1735334300.932514834] [lifecycle_manager]: [34m[1mActivating controller_server[0m[0m
+[controller_server-3] [INFO] [1735334300.932805644] [controller_server]: Activating
+[controller_server-3] [INFO] [1735334300.932846261] [local_costmap.local_costmap]: Activating
+[controller_server-3] [INFO] [1735334300.932862709] [local_costmap.local_costmap]: Checking transform
+[controller_server-3] [INFO] [1735334300.932979870] [local_costmap.local_costmap]: start
+[controller_server-3] [INFO] [1735334300.933444378] [local_costmap.local_costmap]: KeepoutFilter: Subscribing to "/costmap_filter_info" topic for filter info...
+[controller_server-3] [WARN] [1735334300.934488105] [local_costmap.local_costmap]: KeepoutFilter: Filter mask was not received
+[rviz2-7] [INFO] [1735334300.963868554] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[controller_server-3] [INFO] [1735334300.984291699] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rviz2-7] [INFO] [1735334301.054546180] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.410 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.086487913] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.430 for reason 'discarding message because the queue is full'
+[lifecycle_manager-11] [INFO] [1735334301.087172860] [lifecycle_manager]: Server controller_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735334301.087225120] [lifecycle_manager]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1735334301.087628844] [planner_server]: Activating
+[planner_server-4] [INFO] [1735334301.087682153] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1735334301.087706172] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1735334301.087798047] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1768.790000 but the earliest data is at time 1769.540000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735334301.118268298] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.450 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.150420507] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.490 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.182119399] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.530 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.213804383] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.560 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.246536153] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.590 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.278096617] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.620 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.310436801] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.660 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.342425247] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.690 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.374133807] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.710 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.406408900] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.740 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.438428440] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.770 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.470527403] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.820 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.501752644] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.850 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.534359633] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.880 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.565825522] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.910 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735334301.587819910] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1769.290000 but the earliest data is at time 1769.540000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735334301.598223196] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.940 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.630639752] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1768.980 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.662266358] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.010 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.694238701] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.040 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.726219811] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.070 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.757717005] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.100 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.790232503] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.130 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.822324272] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.170 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.854361510] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.200 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735334301.886288971] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.230 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735334302.087858755] [global_costmap.global_costmap]: start
+[planner_server-4] [INFO] [1735334302.089614740] [global_costmap.global_costmap]: SpeedFilter: Subscribing to "/costmap_filter_info" topic for filter info...
+[planner_server-4] [WARN] [1735334302.093303994] [global_costmap.global_costmap]: SpeedFilter: Filter mask was not received
+[rviz2-7] [INFO] [1735334302.116183307] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[planner_server-4] [INFO] [1735334302.142372219] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735334302.142429150] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735334302.246698491] [lifecycle_manager]: Server planner_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735334302.246755738] [lifecycle_manager]: [34m[1mActivating recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735334302.247388000] [recoveries_server]: Activating
+[recoveries_server-5] [INFO] [1735334302.247430054] [recoveries_server]: Activating spin
+[recoveries_server-5] [INFO] [1735334302.247447727] [recoveries_server]: Activating backup
+[recoveries_server-5] [INFO] [1735334302.247481945] [recoveries_server]: Activating wait
+[recoveries_server-5] [INFO] [1735334302.247496133] [recoveries_server]: Creating bond (recoveries_server) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735334302.350795576] [lifecycle_manager]: Server recoveries_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735334302.350865159] [lifecycle_manager]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735334302.351144070] [bt_navigator]: Activating
+[bt_navigator-6] [PublisherZMQ] Server quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [PublisherZMQ] Publisher quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [INFO] [1735334302.400974232] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735334302.505790152] [lifecycle_manager]: Server bt_navigator connected with bond.
+[lifecycle_manager-11] [INFO] [1735334302.505848411] [lifecycle_manager]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-8] [INFO] [1735334302.507578787] [waypoint_follower]: Activating
+[waypoint_follower-8] [INFO] [1735334302.507642664] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-11] [INFO] [1735334302.611111063] [lifecycle_manager]: Server waypoint_follower connected with bond.
+[lifecycle_manager-11] [INFO] [1735334302.611172777] [lifecycle_manager]: [34m[1mActivating filter_mask_server[0m[0m
+[map_server-9] [0m[INFO] [1735334302.611558433] [filter_mask_server]: Activating[0m
+[map_server-9] [0m[INFO] [1735334302.612128312] [filter_mask_server]: Creating bond (filter_mask_server) to lifecycle manager.[0m
+[lifecycle_manager-11] [INFO] [1735334302.715347284] [lifecycle_manager]: Server filter_mask_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735334302.715401344] [lifecycle_manager]: [34m[1mActivating costmap_filter_info_server[0m[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735334302.715723675] [costmap_filter_info_server]: Activating[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735334302.715954443] [costmap_filter_info_server]: Creating bond (costmap_filter_info_server) to lifecycle manager.[0m
+[controller_server-3] [INFO] [1735334302.715934665] [local_costmap.local_costmap]: KeepoutFilter: Received filter info from /costmap_filter_info topic.
+[controller_server-3] [ERROR] [1735334302.716000493] [local_costmap.local_costmap]: KeepoutFilter: For proper use of keepout filter base and multiplier in CostmapFilterInfo message should be set to their default values (0.000000 and 1.000000)
+[controller_server-3] [INFO] [1735334302.716015465] [local_costmap.local_costmap]: KeepoutFilter: Subscribing to "/speed_filter_mask" topic for filter mask...
+[planner_server-4] [INFO] [1735334302.715938137] [global_costmap.global_costmap]: SpeedFilter: Received filter info from /costmap_filter_info topic.
+[planner_server-4] [INFO] [1735334302.715976691] [global_costmap.global_costmap]: SpeedFilter: Using expressed in a percent from maximum speedspeed_limit = 100.000000 + filter_mask_data * -1.000000
+[planner_server-4] [INFO] [1735334302.715991054] [global_costmap.global_costmap]: SpeedFilter: Subscribing to "/speed_filter_mask" topic for filter mask...
+[controller_server-3] [INFO] [1735334302.726669912] [local_costmap.local_costmap]: KeepoutFilter: Received filter mask from /speed_filter_mask topic.
+[planner_server-4] [INFO] [1735334302.727923913] [global_costmap.global_costmap]: SpeedFilter: Received filter mask from /speed_filter_mask topic.
+[lifecycle_manager-11] [INFO] [1735334302.821547753] [lifecycle_manager]: Server costmap_filter_info_server connected with bond.
+[lifecycle_manager-11] [INFO] [1735334302.821606953] [lifecycle_manager]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-11] [INFO] [1735334302.821630152] [lifecycle_manager]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-7] [INFO] [1735334309.860986222] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1768.560 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334310.080661101] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1768.770 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334310.279900629] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1768.980 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334310.480960227] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1769.180 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334310.689213665] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 1769.390 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.556666334] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.260 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.586515997] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.290 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.626396740] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.330 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.656425891] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.360 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.686598856] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.390 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.716546761] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.420 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.746185861] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.450 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.786245839] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.490 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334311.816183782] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 1769.520 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735334321.417163315] [rviz2]: Trying to create a map of size 286 x 423 using 1 swatches
+[rviz2-7] qt.qpa.xcb: QXcbConnection: XCB error: 3 (BadWindow), sequence: 16181, resource id: 6293518, major code: 40 (TranslateCoords), minor code: 0
+[rviz2-7] [INFO] [1735334373.540773262] [rviz2]: Setting estimate pose: Frame:map, Position(3.58972, 1.71701, 0), Orientation(0, 0, -0.999972, 0.00744377) = Angle: -3.1267
+[amcl-2] [INFO] [1735334373.540918960] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735334373.540976583] [amcl]: Setting pose (1841.200000): 3.590 1.717 -3.127
+[rviz2-7] [INFO] [1735334385.006084477] [rviz2]: Setting goal pose: Frame:map, Position(-4.52539, -2.99197, 0), Orientation(0, 0, -0.62522, 0.780449) = Angle: -1.35083
+[bt_navigator-6] [INFO] [1735334385.007356729] [bt_navigator]: Begin navigating from current location to (-4.53, -2.99)
+[controller_server-3] [INFO] [1735334385.028741680] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [WARN] [1735334385.028810454] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-3] [INFO] [1735334386.230229222] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334387.230240479] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334388.230222240] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334389.230223156] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334390.230226265] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334391.230234056] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334392.430221719] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334393.430220028] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334394.430227379] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334395.430217705] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334396.430237958] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334397.430219826] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334398.430222625] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334399.630222495] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334400.630228640] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334401.630230057] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334402.630234316] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334403.630220250] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334404.630224295] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334405.630228005] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334406.830237352] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334407.830252214] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334408.830222390] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334409.830220265] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334410.830223572] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334411.830222778] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334413.030290809] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334414.030218751] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334415.030228410] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334416.030223572] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334417.030188026] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334418.030221250] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334419.030174264] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334420.230220356] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334421.230226813] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334422.230220490] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334423.230228911] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334424.230222609] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334425.230231314] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334426.230222101] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334427.430223360] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334428.430230843] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334429.430222050] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334430.430221114] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334431.430221421] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334432.430227055] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334433.630233448] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334434.630221337] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334435.630225451] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334436.630227410] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334437.630231082] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334438.630226601] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334439.630220101] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334440.830231831] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334441.830220328] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334442.830228744] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334443.830221962] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334444.830224743] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334445.830222668] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334446.830221106] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334448.030232843] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334449.030219491] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334450.030223139] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334451.030232246] [controller_server]: Passing new path to controller.
+[controller_server-3] [INFO] [1735334451.235218549] [controller_server]: Reached the goal!
+[bt_navigator-6] [INFO] [1735334451.267510699] [bt_navigator]: Goal succeeded
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[rviz2-7] [INFO] [1735334467.871358247] [rclcpp]: signal_handler(signal_value=2)
+[bt_navigator-6] [INFO] [1735334467.871360722] [rclcpp]: signal_handler(signal_value=2)
+[waypoint_follower-8] [INFO] [1735334467.871357704] [rclcpp]: signal_handler(signal_value=2)
+[lifecycle_manager-11] [INFO] [1735334467.871363222] [rclcpp]: signal_handler(signal_value=2)
+[recoveries_server-5] [INFO] [1735334467.871368331] [rclcpp]: signal_handler(signal_value=2)
+[map_server-1] [INFO] [1735334467.871417382] [rclcpp]: signal_handler(signal_value=2)
+[planner_server-4] [INFO] [1735334467.871422927] [rclcpp]: signal_handler(signal_value=2)
+[controller_server-3] [INFO] [1735334467.871467744] [rclcpp]: signal_handler(signal_value=2)
+[amcl-2] [INFO] [1735334467.871639479] [rclcpp]: signal_handler(signal_value=2)
+[costmap_filter_info_server-10] [0m[INFO] [1735334467.871400433] [rclcpp]: signal_handler(signal_value=2)[0m
+[costmap_filter_info_server-10] [0m[INFO] [1735334467.879902834] [costmap_filter_info_server]: Destroying[0m
+[map_server-9] [0m[INFO] [1735334467.871434727] [rclcpp]: signal_handler(signal_value=2)[0m
+[map_server-1] [INFO] [1735334467.878329540] [map_server]: Destroying
+[INFO] [lifecycle_manager-11]: process has finished cleanly [pid 16190]
+[planner_server-4] [INFO] [1735334467.885522831] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[map_server-9] [0m[INFO] [1735334467.890384910] [filter_mask_server]: Destroying[0m
+[planner_server-4] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[planner_server-4]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[planner_server-4] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[planner_server-4]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[waypoint_follower-8] [INFO] [1735334467.922969431] [waypoint_follower]: Destroying
+[planner_server-4] [INFO] [1735334467.928608096] [global_costmap.global_costmap]: Destroying
+[controller_server-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[controller_server-3]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[controller_server-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[controller_server-3]          at line 127 in /tmp/binarydeb/ros-galactic-class-loader-2.1.2/src/class_loader.cpp
+[recoveries_server-5] [INFO] [1735334467.937116997] [recoveries_server]: Destroying
+[amcl-2] [INFO] [1735334467.974784760] [amcl]: Destroying
+[controller_server-3] [INFO] [1735334467.997122029] [local_costmap.local_costmap]: Destroying
+[planner_server-4] [INFO] [1735334467.997111979] [planner_server]: Destroying
+[controller_server-3] [INFO] [1735334468.049456921] [controller_server]: Destroying
+[bt_navigator-6] [INFO] [1735334468.103158742] [bt_navigator]: Destroying
+[INFO] [map_server-9]: process has finished cleanly [pid 16111]
+[INFO] [costmap_filter_info_server-10]: process has finished cleanly [pid 16183]
+[INFO] [map_server-1]: process has finished cleanly [pid 16095]
+[INFO] [waypoint_follower-8]: process has finished cleanly [pid 16109]
+[INFO] [recoveries_server-5]: process has finished cleanly [pid 16103]
+[INFO] [amcl-2]: process has finished cleanly [pid 16097]
+[INFO] [planner_server-4]: process has finished cleanly [pid 16101]
+[INFO] [rviz2-7]: process has finished cleanly [pid 16107]
+[INFO] [controller_server-3]: process has finished cleanly [pid 16099]
+[bt_navigator-6] [PublisherZMQ] Server quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[ERROR] [bt_navigator-6]: process has died [pid 16105, exit code -11, cmd '/opt/ros/galactic/lib/nav2_bt_navigator/bt_navigator --ros-args -r __node:=bt_navigator --params-file /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config/bt_navigator.yaml --params-file /tmp/launch_params_u5d9xnpo'].

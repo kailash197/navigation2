@@ -1,0 +1,37 @@
+WARNING: topic [/speed_limit] does not appear to be published yet
+Could not determine the type for the passed topic
+
+
+user:~/ros2_ws/src$ ros2 topic echo /speed_limit
+header:
+  stamp:
+    sec: 1621
+    nanosec: 750000000
+  frame_id: map
+percentage: true
+speed_limit: 57.0
+---
+header:
+  stamp:
+    sec: 1649
+    nanosec: 790000000
+  frame_id: map
+percentage: true
+speed_limit: 47.0
+---
+header:
+  stamp:
+    sec: 1651
+    nanosec: 780000000
+  frame_id: map
+percentage: true
+speed_limit: 48.0
+---
+header:
+  stamp:
+    sec: 1652
+    nanosec: 710000000
+  frame_id: map
+percentage: true
+speed_limit: 47.0
+---
