@@ -1,0 +1,995 @@
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-12-30-20-07-16-751008-1_xterm-9699
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [9702]
+[INFO] [amcl-2]: process started with pid [9704]
+[INFO] [controller_server-3]: process started with pid [9706]
+[INFO] [planner_server-4]: process started with pid [9708]
+[INFO] [recoveries_server-5]: process started with pid [9710]
+[INFO] [bt_navigator-6]: process started with pid [9712]
+[INFO] [rviz2-7]: process started with pid [9714]
+[INFO] [lifecycle_manager-8]: process started with pid [9716]
+[lifecycle_manager-8] [INFO] [1735589237.183308443] [lifecycle_manager_pathplanner]: Creating
+[controller_server-3] [INFO] [1735589237.185088313] [controller_server]: 
+[controller_server-3] 	controller_server lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-8] [INFO] [1735589237.187847032] [lifecycle_manager_pathplanner]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[amcl-2] [INFO] [1735589237.188114724] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1735589237.188217618] [amcl]: Creating
+[controller_server-3] [INFO] [1735589237.191029944] [controller_server]: Creating controller server
+[map_server-1] [INFO] [1735589237.193631916] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1735589237.194769541] [map_server]: Creating
+[lifecycle_manager-8] [INFO] [1735589237.201098960] [lifecycle_manager_pathplanner]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1735589237.201147734] [lifecycle_manager_pathplanner]: [34m[1mConfiguring map_server[0m[0m
+[controller_server-3] [INFO] [1735589237.205861251] [local_costmap.local_costmap]: 
+[controller_server-3] 	local_costmap lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735589237.208481495] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-4] [INFO] [1735589237.209241242] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735589237.212594799] [planner_server]: Creating
+[recoveries_server-5] [INFO] [1735589237.217020595] [recoveries_server]: 
+[recoveries_server-5] 	recoveries_server lifecycle node launched. 
+[recoveries_server-5] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735589237.240109007] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735589237.240375776] [bt_navigator]: Creating
+[planner_server-4] [INFO] [1735589237.244639427] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735589237.245600051] [global_costmap.global_costmap]: Creating Costmap
+[rviz2-7] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[map_server-1] [INFO] [1735589237.252747317] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/install/map_server/share/map_server/maps/neobotix_area.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -43
+[map_server-1] [DEBUG] [map_io]: origin[1]: -23.9
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.25
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/install/map_server/share/map_server/maps/neobotix_area.pgm
+[rviz2-7] [INFO] [1735589237.356394221] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1735589237.356499008] [rviz2]: OpenGl version: 3.1 (GLSL 1.4)
+[rviz2-7] [INFO] [1735589237.375822272] [rviz2]: Stereo is NOT SUPPORTED
+[map_server-1] [DEBUG] [map_io]: Read map /home/user/ros2_ws/install/map_server/share/map_server/maps/neobotix_area.pgm: 1572 X 984 map @ 0.05 m/cell
+[lifecycle_manager-8] [INFO] [1735589237.432778098] [lifecycle_manager_pathplanner]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1735589237.433064083] [amcl]: Configuring
+[amcl-2] [INFO] [1735589237.433177851] [amcl]: initTransforms
+[amcl-2] [INFO] [1735589237.439325077] [amcl]: initPubSub
+[amcl-2] [INFO] [1735589237.444266864] [amcl]: Subscribed to map topic.
+[lifecycle_manager-8] [INFO] [1735589237.453941858] [lifecycle_manager_pathplanner]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-3] [INFO] [1735589237.454728780] [controller_server]: Configuring controller interface
+[controller_server-3] [INFO] [1735589237.454923188] [controller_server]: getting goal checker plugins..
+[controller_server-3] [INFO] [1735589237.455078481] [controller_server]: Controller frequency set to 5.0000Hz
+[controller_server-3] [INFO] [1735589237.455111324] [local_costmap.local_costmap]: Configuring
+[controller_server-3] [INFO] [1735589237.458528744] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-3] [INFO] [1735589237.465794054] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-3] [INFO] [1735589237.473778342] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-3] [INFO] [1735589237.473821643] [local_costmap.local_costmap]: Using plugin "custom_gradient_layer"
+[controller_server-3] [INFO] [1735589237.474527723] [local_costmap.local_costmap]: Initialized plugin "custom_gradient_layer"
+[controller_server-3] [INFO] [1735589237.481385966] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-3] [INFO] [1735589237.487735327] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-3] [INFO] [1735589237.491632475] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-3] [INFO] [1735589237.495245881] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-3] [INFO] [1735589237.497593078] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-3] [INFO] [1735589237.511911570] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-3] [INFO] [1735589237.513038603] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.513388080] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-3] [INFO] [1735589237.514561240] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.514805333] [controller_server]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[controller_server-3] [INFO] [1735589237.515271364] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.515528174] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-3] [INFO] [1735589237.516883140] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.517119312] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-3] [INFO] [1735589237.517726916] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.518014184] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-3] [INFO] [1735589237.518434804] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.518654185] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-3] [INFO] [1735589237.519128479] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589237.519162183] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1735589237.523415181] [lifecycle_manager_pathplanner]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1735589237.523674093] [planner_server]: Configuring
+[planner_server-4] [INFO] [1735589237.523711830] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1735589237.528083550] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1735589237.533672171] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1735589237.534448416] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1735589237.534486271] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735589237.536464330] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1735589237.541732743] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735589237.541783077] [global_costmap.global_costmap]: Using plugin "custom_gradient_layer"
+[planner_server-4] [INFO] [1735589237.542562391] [global_costmap.global_costmap]: Initialized plugin "custom_gradient_layer"
+[planner_server-4] [INFO] [1735589237.549463881] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1735589237.549517132] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735589237.554450794] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-8] [INFO] [1735589237.561226393] [lifecycle_manager_pathplanner]: [34m[1mConfiguring recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735589237.562920204] [recoveries_server]: Configuring
+[recoveries_server-5] [INFO] [1735589237.567841831] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-5] [INFO] [1735589237.569131363] [recoveries_server]: Configuring spin
+[recoveries_server-5] [INFO] [1735589237.573189295] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-5] [INFO] [1735589237.574204777] [recoveries_server]: Configuring backup
+[recoveries_server-5] [INFO] [1735589237.577576800] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-5] [INFO] [1735589237.578429498] [recoveries_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1735589237.581569200] [lifecycle_manager_pathplanner]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735589237.581791726] [bt_navigator]: Configuring
+[bt_navigator-6] [WARN] [1735589237.612292194] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[lifecycle_manager-8] [INFO] [1735589237.621137210] [lifecycle_manager_pathplanner]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1735589237.621880993] [map_server]: Activating
+[map_server-1] [INFO] [1735589237.643542081] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1735589237.644752665] [amcl]: Received a 1572 X 984 map @ 0.050 m/pix
+[planner_server-4] [INFO] [1735589237.644771375] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1572 X 984 at 0.050000 m/pix
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-8] [INFO] [1735589237.753685453] [lifecycle_manager_pathplanner]: Server map_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589237.753742763] [lifecycle_manager_pathplanner]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1735589237.754012933] [amcl]: Activating
+[amcl-2] [INFO] [1735589237.754053272] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735589237.754085289] [amcl]: Setting pose (2773.477000): 0.000 0.000 0.000
+[amcl-2] [INFO] [1735589237.756870290] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1735589237.760147592] [amcl]: createLaserObject
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [INFO] [1735589237.771951648] [rviz2]: Trying to create a map of size 1572 x 984 using 1 swatches
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [ERROR] [1735589237.801555899] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-8] [INFO] [1735589237.860093481] [lifecycle_manager_pathplanner]: Server amcl connected with bond.
+[lifecycle_manager-8] [INFO] [1735589237.860149841] [lifecycle_manager_pathplanner]: [34m[1mActivating controller_server[0m[0m
+[controller_server-3] [INFO] [1735589237.860419351] [controller_server]: Activating
+[controller_server-3] [INFO] [1735589237.860457576] [local_costmap.local_costmap]: Activating
+[controller_server-3] [INFO] [1735589237.860472691] [local_costmap.local_costmap]: Checking transform
+[controller_server-3] [INFO] [1735589237.860589922] [local_costmap.local_costmap]: start
+[rviz2-7] [INFO] [1735589237.901090077] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[controller_server-3] [INFO] [1735589237.911333632] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1735589238.014562779] [lifecycle_manager_pathplanner]: Server controller_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589238.014619710] [lifecycle_manager_pathplanner]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1735589238.014878921] [planner_server]: Activating
+[planner_server-4] [INFO] [1735589238.014918639] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1735589238.014934524] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1735589238.015005766] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 2773.807000 but the earliest data is at time 2774.557000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735589238.082775377] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.517 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.113959351] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.547 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.146342979] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.577 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.178656094] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.607 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.210628410] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.647 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.242231162] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.677 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.274403182] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.707 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.306262357] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.737 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.338360723] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.777 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.370231416] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.807 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.402329144] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.837 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.434807956] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.867 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.466265992] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.897 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.499029763] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.927 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735589238.515045735] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 2774.307000 but the earliest data is at time 2774.557000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735589238.530416485] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.957 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.562768217] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2773.997 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.594754539] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.027 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.626827271] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.057 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.657970567] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.087 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.690829872] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.127 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.722546695] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.157 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.754446471] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.187 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589238.786156700] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.217 for reason 'discarding message because the queue is full'
+[rviz2-7] [ERROR] [1735589238.799718008] [rviz2]: Error prior to using GLSL Program Object : GL_INVALID_VALUE
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[rviz2-7] [INFO] [1735589238.818533394] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.247 for reason 'discarding message because the queue is full'
+[rviz2-7] [ERROR] [1735589238.826077097] [rviz2]: Error prior to using GLSL Program Object : GL_INVALID_VALUE
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[planner_server-4] [INFO] [1735589239.015074831] [global_costmap.global_costmap]: start
+[rviz2-7] [INFO] [1735589239.056644801] [rviz2]: Trying to create a map of size 1572 x 984 using 1 swatches
+[planner_server-4] [INFO] [1735589239.065601963] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735589239.065663299] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1735589239.168135273] [lifecycle_manager_pathplanner]: Server planner_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589239.168197383] [lifecycle_manager_pathplanner]: [34m[1mActivating recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735589239.168478722] [recoveries_server]: Activating
+[recoveries_server-5] [INFO] [1735589239.168523631] [recoveries_server]: Activating spin
+[recoveries_server-5] [INFO] [1735589239.168542333] [recoveries_server]: Activating backup
+[recoveries_server-5] [INFO] [1735589239.168557724] [recoveries_server]: Activating wait
+[recoveries_server-5] [INFO] [1735589239.168573966] [recoveries_server]: Creating bond (recoveries_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1735589239.272186112] [lifecycle_manager_pathplanner]: Server recoveries_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589239.272248715] [lifecycle_manager_pathplanner]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735589239.272534129] [bt_navigator]: Activating
+[bt_navigator-6] [PublisherZMQ] Server quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [PublisherZMQ] Publisher quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [INFO] [1735589239.313288589] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1735589239.418630594] [lifecycle_manager_pathplanner]: Server bt_navigator connected with bond.
+[lifecycle_manager-8] [INFO] [1735589239.418685896] [lifecycle_manager_pathplanner]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-8] [INFO] [1735589239.418705445] [lifecycle_manager_pathplanner]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-7] [INFO] [1735589246.799796274] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2773.577 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589247.006630535] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2773.787 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589247.219341261] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2773.997 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589247.423445094] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2774.207 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589247.637003833] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2774.417 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.496306403] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.277 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.536830572] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.317 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.560005273] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.337 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.598410605] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.377 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.627573080] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.407 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.657301636] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.437 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.697218060] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.477 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.728917489] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.507 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589248.756381694] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2774.537 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589284.499668902] [rviz2]: Setting goal pose: Frame:map, Position(3.73872, 0.257372, 0), Orientation(0, 0, -0.5938, 0.804612) = Angle: -1.27155
+[bt_navigator-6] [INFO] [1735589284.500231165] [bt_navigator]: Begin navigating from current location to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589284.529551399] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589284.529651412] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589284.529681391] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589284.540603605] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589285.036864443] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589285.036951030] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589285.036969414] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589285.050644183] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589285.051076320] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589286.036530746] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589286.036635566] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589286.036654984] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589286.050604786] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589287.039625771] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589287.039729290] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589287.039754175] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589287.050933516] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589287.051130037] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589287.151531398] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589287.151574944] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589287.151602280] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589287.184608086] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589292.184870254] [recoveries_server]: wait completed successfully
+[planner_server-4] [WARN] [1735589292.224701879] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589292.224781004] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589292.224800106] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589292.240560504] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589293.037325048] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589293.038255090] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589293.039382014] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589293.050807076] [recoveries_server]: Attempting backup
+[recoveries_server-5] [WARN] [1735589293.051085835] [recoveries_server]: Collision Ahead - Exiting BackUp
+[recoveries_server-5] [WARN] [1735589293.051114051] [recoveries_server]: backup failed
+[recoveries_server-5] [WARN] [1735589293.051136730] [recoveries_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589293.080546365] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589293.080850813] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589294.038752626] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589294.038834330] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589294.038854141] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589294.050559040] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589295.039417029] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589295.039509136] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589295.039534329] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589295.050857748] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589295.051579257] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589295.152441394] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589295.152495779] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589295.152514940] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589295.183080038] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589300.183309361] [recoveries_server]: wait completed successfully
+[controller_server-3] [INFO] [1735589300.241498710] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [WARN] [1735589300.241618583] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-3] [ERROR] [1735589300.250879882] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.250936754] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589300.251164500] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.448865791] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.448935932] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589300.449093786] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.649146916] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.649179793] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589300.649347376] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.649388986] [controller_server]: Controller patience exceeded
+[controller_server-3] [WARN] [1735589300.649436591] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589300.660572539] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-3] [INFO] [1735589300.661894030] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [ERROR] [1735589300.669439600] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.669478454] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589300.669631734] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.869028689] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589300.869067730] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589300.869238246] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589301.069752200] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589301.069796135] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589301.070064551] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589301.070126246] [controller_server]: Controller patience exceeded
+[controller_server-3] [WARN] [1735589301.070184959] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589301.080844266] [recoveries_server]: Attempting backup
+[recoveries_server-5] [WARN] [1735589301.081068529] [recoveries_server]: Collision Ahead - Exiting BackUp
+[recoveries_server-5] [WARN] [1735589301.081096822] [recoveries_server]: backup failed
+[recoveries_server-5] [WARN] [1735589301.081109779] [recoveries_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589301.110525643] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589301.110764557] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589302.039477680] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589302.039548987] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589302.039568363] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589302.050563515] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589303.039018597] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589303.039094392] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.74, 0.26)
+[planner_server-4] [WARN] [1735589303.039112667] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589303.055377051] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589303.055488358] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589303.155767107] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589303.155815599] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589303.155829896] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589303.183414779] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589308.183841220] [recoveries_server]: wait completed successfully
+[controller_server-3] [INFO] [1735589308.241840735] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [ERROR] [1735589308.249503196] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.249540067] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589308.249708665] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.449729576] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.449766532] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589308.449923718] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.650006116] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.650041702] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589308.650211051] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.650251004] [controller_server]: Controller patience exceeded
+[controller_server-3] [WARN] [1735589308.650299214] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589308.660567191] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-3] [INFO] [1735589308.662907560] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-3] [ERROR] [1735589308.671629926] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.671670165] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589308.671892116] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.871532635] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589308.871573475] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589308.871812460] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589309.073043961] [DWBLocalPlanner]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589309.073088353] [DWBLocalPlanner]: 1.00: ObstacleFootprint/Trajectory Hits Obstacle.
+[controller_server-3] [WARN] [1735589309.073306262] [controller_server]: No valid trajectories out of 419! 
+[controller_server-3] [ERROR] [1735589309.073359675] [controller_server]: Controller patience exceeded
+[controller_server-3] [WARN] [1735589309.073413213] [controller_server_rclcpp_node]: [follow_path] [ActionServer] Aborting handle.
+[bt_navigator-6] [ERROR] [1735589309.100429707] [bt_navigator]: Goal failed
+[bt_navigator-6] [WARN] [1735589309.100508866] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[rviz2-7] [INFO] [1735589314.742157485] [rviz2]: Setting estimate pose: Frame:map, Position(0.993508, -0.00185537, 0), Orientation(0, 0, -0.0191395, 0.999817) = Angle: -0.0382813
+[amcl-2] [INFO] [1735589314.742340496] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735589314.742405705] [amcl]: Setting pose (2850.447000): 0.994 -0.002 -0.038
+[rviz2-7] [INFO] [1735589321.203196504] [rviz2]: Setting goal pose: Frame:map, Position(-2.36154, -1.21136, 0), Orientation(0, 0, -0.807995, 0.589189) = Angle: -1.88148
+[bt_navigator-6] [INFO] [1735589321.203530999] [bt_navigator]: Begin navigating from current location to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589321.221036740] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589321.221112869] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589321.221133536] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589321.233861889] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589322.037277635] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589322.037366868] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589322.037415379] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589322.054024744] [recoveries_server]: Attempting backup
+[recoveries_server-5] [WARN] [1735589322.054275818] [recoveries_server]: Collision Ahead - Exiting BackUp
+[recoveries_server-5] [WARN] [1735589322.054303787] [recoveries_server]: backup failed
+[recoveries_server-5] [WARN] [1735589322.054316935] [recoveries_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589322.073803222] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589322.074122365] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589323.036942547] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589323.037031966] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589323.037051852] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589323.054229055] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589324.035994704] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589324.036074710] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589324.036094296] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589324.054067219] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589324.054169004] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589324.154475040] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589324.154525230] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589324.154543699] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589324.184106322] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589329.184324002] [recoveries_server]: wait completed successfully
+[planner_server-4] [WARN] [1735589329.227245410] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589329.227345703] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589329.227374440] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589329.243923955] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589330.037963247] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589330.038047269] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589330.038066935] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589330.054464616] [recoveries_server]: Attempting backup
+[recoveries_server-5] [WARN] [1735589330.054698672] [recoveries_server]: Collision Ahead - Exiting BackUp
+[recoveries_server-5] [WARN] [1735589330.054728183] [recoveries_server]: backup failed
+[recoveries_server-5] [WARN] [1735589330.054746178] [recoveries_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589330.084358460] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589330.084702686] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589331.038225120] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589331.038305856] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589331.038324803] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589331.054091188] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589332.037870743] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589332.037953726] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.36, -1.21)
+[planner_server-4] [WARN] [1735589332.037974008] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589332.054064114] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589332.054163159] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589332.154438762] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589332.154493346] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589332.154508974] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589332.184063104] [recoveries_server]: Attempting wait
+
+
+
+[INFO] [launch]: All log files can be found below /home/user/.ros/log/2024-12-30-20-09-42-125410-1_xterm-10362
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [map_server-1]: process started with pid [10365]
+[INFO] [amcl-2]: process started with pid [10367]
+[INFO] [controller_server-3]: process started with pid [10369]
+[INFO] [planner_server-4]: process started with pid [10371]
+[INFO] [recoveries_server-5]: process started with pid [10373]
+[INFO] [bt_navigator-6]: process started with pid [10375]
+[INFO] [rviz2-7]: process started with pid [10377]
+[INFO] [lifecycle_manager-8]: process started with pid [10379]
+[map_server-1] [INFO] [1735589382.533345860] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1735589382.533449291] [map_server]: Creating
+[planner_server-4] [INFO] [1735589382.537083679] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-8] [INFO] [1735589382.537991065] [lifecycle_manager_pathplanner]: Creating
+[planner_server-4] [INFO] [1735589382.540681952] [planner_server]: Creating
+[controller_server-3] [INFO] [1735589382.542688886] [controller_server]: 
+[controller_server-3] 	controller_server lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-8] [INFO] [1735589382.545406053] [lifecycle_manager_pathplanner]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[recoveries_server-5] [INFO] [1735589382.554016975] [recoveries_server]: 
+[recoveries_server-5] 	recoveries_server lifecycle node launched. 
+[recoveries_server-5] 	Waiting on external lifecycle transitions to activate
+[recoveries_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735589382.560764051] [controller_server]: Creating controller server
+[bt_navigator-6] [INFO] [1735589382.559650084] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1735589382.560878763] [bt_navigator]: Creating
+[amcl-2] [INFO] [1735589382.563732654] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1735589382.563904484] [amcl]: Creating
+[lifecycle_manager-8] [INFO] [1735589382.570549032] [lifecycle_manager_pathplanner]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-8] [INFO] [1735589382.570705580] [lifecycle_manager_pathplanner]: [34m[1mConfiguring map_server[0m[0m
+[planner_server-4] [INFO] [1735589382.581519542] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1735589382.582482349] [global_costmap.global_costmap]: Creating Costmap
+[rviz2-7] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+[controller_server-3] [INFO] [1735589382.607100492] [local_costmap.local_costmap]: 
+[controller_server-3] 	local_costmap lifecycle node launched. 
+[controller_server-3] 	Waiting on external lifecycle transitions to activate
+[controller_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-3] [INFO] [1735589382.607971549] [local_costmap.local_costmap]: Creating Costmap
+[rviz2-7] [INFO] [1735589382.713247427] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1735589382.713355443] [rviz2]: OpenGl version: 3.1 (GLSL 1.4)
+[map_server-1] [INFO] [1735589382.715976753] [map_server]: Configuring
+[map_server-1] [INFO] [map_io]: Loading yaml file: /home/user/ros2_ws/install/map_server/share/map_server/maps/neobotix_area.yaml
+[map_server-1] [DEBUG] [map_io]: resolution: 0.05
+[map_server-1] [DEBUG] [map_io]: origin[0]: -43
+[map_server-1] [DEBUG] [map_io]: origin[1]: -23.9
+[map_server-1] [DEBUG] [map_io]: origin[2]: 0
+[map_server-1] [DEBUG] [map_io]: free_thresh: 0.25
+[map_server-1] [DEBUG] [map_io]: occupied_thresh: 0.65
+[map_server-1] [DEBUG] [map_io]: mode: trinary
+[map_server-1] [DEBUG] [map_io]: negate: 0
+[map_server-1] [INFO] [map_io]: Loading image_file: /home/user/ros2_ws/install/map_server/share/map_server/maps/neobotix_area.pgm
+[rviz2-7] [INFO] [1735589382.732195165] [rviz2]: Stereo is NOT SUPPORTED
+[map_server-1] [DEBUG] [map_io]: Read map /home/user/ros2_ws/install/map_server/share/map_server/maps/neobotix_area.pgm: 1572 X 984 map @ 0.05 m/cell
+[lifecycle_manager-8] [INFO] [1735589382.904480780] [lifecycle_manager_pathplanner]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1735589382.904752422] [amcl]: Configuring
+[amcl-2] [INFO] [1735589382.904858293] [amcl]: initTransforms
+[amcl-2] [INFO] [1735589382.911362289] [amcl]: initPubSub
+[amcl-2] [INFO] [1735589382.913771612] [amcl]: Subscribed to map topic.
+[lifecycle_manager-8] [INFO] [1735589382.919652065] [lifecycle_manager_pathplanner]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-3] [INFO] [1735589382.919970059] [controller_server]: Configuring controller interface
+[controller_server-3] [INFO] [1735589382.920182362] [controller_server]: getting goal checker plugins..
+[controller_server-3] [INFO] [1735589382.920328507] [controller_server]: Controller frequency set to 5.0000Hz
+[controller_server-3] [INFO] [1735589382.920361696] [local_costmap.local_costmap]: Configuring
+[controller_server-3] [INFO] [1735589382.924010244] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-3] [INFO] [1735589382.928690792] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-3] [INFO] [1735589382.937371276] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-3] [INFO] [1735589382.937436690] [local_costmap.local_costmap]: Using plugin "custom_gradient_layer"
+[controller_server-3] [INFO] [1735589382.938390871] [local_costmap.local_costmap]: Initialized plugin "custom_gradient_layer"
+[controller_server-3] [INFO] [1735589382.945935978] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-3] [INFO] [1735589382.954409773] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-3] [INFO] [1735589382.960460513] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-3] [INFO] [1735589382.963337606] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-3] [INFO] [1735589382.966561028] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-3] [INFO] [1735589382.987963109] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-3] [INFO] [1735589382.989673820] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.990054468] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-3] [INFO] [1735589382.991844492] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.992234894] [controller_server]: Using critic "ObstacleFootprint" (dwb_critics::ObstacleFootprintCritic)
+[controller_server-3] [INFO] [1735589382.992973263] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.993415585] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-3] [INFO] [1735589382.994690948] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.995100107] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-3] [INFO] [1735589382.996388612] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.996701244] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-3] [INFO] [1735589382.997367184] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.997764714] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-3] [INFO] [1735589382.998590785] [controller_server]: Critic plugin initialized
+[controller_server-3] [INFO] [1735589382.998619988] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1735589383.003390705] [lifecycle_manager_pathplanner]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1735589383.003627004] [planner_server]: Configuring
+[planner_server-4] [INFO] [1735589383.003665203] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1735589383.006716740] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1735589383.013056290] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1735589383.013981734] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1735589383.014013005] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735589383.016346665] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1735589383.023522139] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1735589383.023558902] [global_costmap.global_costmap]: Using plugin "custom_gradient_layer"
+[planner_server-4] [INFO] [1735589383.024452850] [global_costmap.global_costmap]: Initialized plugin "custom_gradient_layer"
+[planner_server-4] [INFO] [1735589383.031324820] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1735589383.031365097] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735589383.036193466] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-8] [INFO] [1735589383.043077344] [lifecycle_manager_pathplanner]: [34m[1mConfiguring recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735589383.043384290] [recoveries_server]: Configuring
+[recoveries_server-5] [INFO] [1735589383.048197360] [recoveries_server]: Creating recovery plugin spin of type nav2_recoveries/Spin
+[recoveries_server-5] [INFO] [1735589383.049131490] [recoveries_server]: Configuring spin
+[recoveries_server-5] [INFO] [1735589383.053500521] [recoveries_server]: Creating recovery plugin backup of type nav2_recoveries/BackUp
+[recoveries_server-5] [INFO] [1735589383.054768535] [recoveries_server]: Configuring backup
+[recoveries_server-5] [INFO] [1735589383.059534122] [recoveries_server]: Creating recovery plugin wait of type nav2_recoveries/Wait
+[recoveries_server-5] [INFO] [1735589383.060412209] [recoveries_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1735589383.065090897] [lifecycle_manager_pathplanner]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735589383.065336951] [bt_navigator]: Configuring
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[bt_navigator-6] [WARN] [1735589383.096171534] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[lifecycle_manager-8] [INFO] [1735589383.110323466] [lifecycle_manager_pathplanner]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1735589383.110553828] [map_server]: Activating
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[map_server-1] [INFO] [1735589383.139976710] [map_server]: Creating bond (map_server) to lifecycle manager.
+[planner_server-4] [INFO] [1735589383.142164018] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 1572 X 984 at 0.050000 m/pix
+[amcl-2] [INFO] [1735589383.142410691] [amcl]: Received a 1572 X 984 map @ 0.050 m/pix
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [INFO] [1735589383.162998864] [rviz2]: Trying to create a map of size 1572 x 984 using 1 swatches
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] [ERROR] [1735589383.184281723] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-8] [INFO] [1735589383.243113984] [lifecycle_manager_pathplanner]: Server map_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589383.243169574] [lifecycle_manager_pathplanner]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1735589383.243431382] [amcl]: Activating
+[amcl-2] [INFO] [1735589383.243491612] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735589383.243521363] [amcl]: Setting pose (2488.627000): 0.000 0.000 0.000
+[amcl-2] [INFO] [1735589383.245690257] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1735589383.249860746] [amcl]: createLaserObject
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[rviz2-7] Warning: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7]          at line 156 in /tmp/binarydeb/ros-galactic-tf2-0.17.2/src/buffer_core.cpp
+[lifecycle_manager-8] [INFO] [1735589383.349112278] [lifecycle_manager_pathplanner]: Server amcl connected with bond.
+[lifecycle_manager-8] [INFO] [1735589383.349176752] [lifecycle_manager_pathplanner]: [34m[1mActivating controller_server[0m[0m
+[controller_server-3] [INFO] [1735589383.350014736] [controller_server]: Activating
+[controller_server-3] [INFO] [1735589383.350058118] [local_costmap.local_costmap]: Activating
+[controller_server-3] [INFO] [1735589383.350079088] [local_costmap.local_costmap]: Checking transform
+[controller_server-3] [INFO] [1735589383.350280009] [local_costmap.local_costmap]: start
+[rviz2-7] [INFO] [1735589383.384275543] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[controller_server-3] [INFO] [1735589383.401276249] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[rviz2-7] [INFO] [1735589383.434844159] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.517 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.466309353] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.547 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.498713275] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.577 for reason 'discarding message because the queue is full'
+[lifecycle_manager-8] [INFO] [1735589383.503937173] [lifecycle_manager_pathplanner]: Server controller_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589383.503999172] [lifecycle_manager_pathplanner]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1735589383.504253474] [planner_server]: Activating
+[planner_server-4] [INFO] [1735589383.504302041] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1735589383.504318989] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1735589383.504386097] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 2488.947000 but the earliest data is at time 2489.697000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735589383.530059105] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.617 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.561935264] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.647 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.594102996] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.677 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.626434443] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.707 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.658285379] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.737 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.690860834] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.777 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.722401026] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.807 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.753958100] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.837 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.786330353] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.867 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.818687145] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.897 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.850794045] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.937 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.882483854] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.967 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.914572947] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2488.997 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.946468800] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.027 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589383.978620422] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.067 for reason 'discarding message because the queue is full'
+[planner_server-4] [INFO] [1735589384.004425460] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 2489.447000 but the earliest data is at time 2489.697000, when looking up transform from frame [base_footprint] to frame [map]
+[rviz2-7] [INFO] [1735589384.010892533] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.097 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.042123445] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.127 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.074419372] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.157 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.106483095] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.187 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.138815165] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.227 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.170361965] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.257 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.202196891] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.287 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.234859775] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.317 for reason 'discarding message because the queue is full'
+[rviz2-7] [INFO] [1735589384.266857945] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.347 for reason 'discarding message because the queue is full'
+[rviz2-7] [ERROR] [1735589384.279643759] [rviz2]: Error prior to using GLSL Program Object : GL_INVALID_VALUE
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[rviz2-7] [INFO] [1735589384.297975756] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.387 for reason 'discarding message because the queue is full'
+[rviz2-7] [ERROR] [1735589384.305147999] [rviz2]: Error prior to using GLSL Program Object : GL_INVALID_VALUE
+[rviz2-7] active samplers with a different type refer to the same texture image unit
+[planner_server-4] [INFO] [1735589384.504715819] [global_costmap.global_costmap]: start
+[planner_server-4] [INFO] [1735589384.555417772] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1735589384.555500570] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1735589384.659737667] [lifecycle_manager_pathplanner]: Server planner_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589384.659805432] [lifecycle_manager_pathplanner]: [34m[1mActivating recoveries_server[0m[0m
+[recoveries_server-5] [INFO] [1735589384.660122765] [recoveries_server]: Activating
+[recoveries_server-5] [INFO] [1735589384.660167583] [recoveries_server]: Activating spin
+[recoveries_server-5] [INFO] [1735589384.660185117] [recoveries_server]: Activating backup
+[recoveries_server-5] [INFO] [1735589384.660211133] [recoveries_server]: Activating wait
+[recoveries_server-5] [INFO] [1735589384.660268110] [recoveries_server]: Creating bond (recoveries_server) to lifecycle manager.
+[rviz2-7] [INFO] [1735589384.668251079] [rviz2]: Trying to create a map of size 1572 x 984 using 1 swatches
+[lifecycle_manager-8] [INFO] [1735589384.765766702] [lifecycle_manager_pathplanner]: Server recoveries_server connected with bond.
+[lifecycle_manager-8] [INFO] [1735589384.765942671] [lifecycle_manager_pathplanner]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1735589384.766398167] [bt_navigator]: Activating
+[bt_navigator-6] [PublisherZMQ] Publisher quitting.
+[bt_navigator-6] [PublisherZMQ] just died. Exeption Context was terminated
+[bt_navigator-6] [INFO] [1735589384.812266332] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1735589384.915733759] [lifecycle_manager_pathplanner]: Server bt_navigator connected with bond.
+[lifecycle_manager-8] [INFO] [1735589384.915795201] [lifecycle_manager_pathplanner]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-8] [INFO] [1735589384.915818492] [lifecycle_manager_pathplanner]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-7] [INFO] [1735589392.307491746] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2488.737 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589392.515615324] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2488.947 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589392.736004562] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2489.167 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589392.944833232] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2489.377 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589393.153551639] [rviz2_node]: Message Filter dropping message: frame 'odom' at time 2489.587 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589393.982673373] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.417 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.012367537] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.447 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.042141135] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.477 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.071568248] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.507 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.103973276] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.537 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.142165187] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.577 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.170801045] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.607 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.201444673] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.637 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589394.230881274] [rviz2_node]: Message Filter dropping message: frame 'lidar_1_link' at time 2489.667 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-7] [INFO] [1735589401.276463491] [rviz2]: Setting estimate pose: Frame:map, Position(0.561172, -0.195326, 0), Orientation(0, 0, 0.0473869, 0.998877) = Angle: 0.0948094
+[amcl-2] [INFO] [1735589401.276650096] [amcl]: initialPoseReceived
+[amcl-2] [INFO] [1735589401.276719078] [amcl]: Setting pose (2506.657000): 0.561 -0.195 0.095
+[rviz2-7] [INFO] [1735589412.317003868] [rviz2]: Setting goal pose: Frame:map, Position(-2.04225, -0.109179, 0), Orientation(0, 0, -0.679992, 0.733219) = Angle: -1.4955
+[bt_navigator-6] [INFO] [1735589412.317455353] [bt_navigator]: Begin navigating from current location to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589412.345922797] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589412.346015582] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589412.346037303] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589412.357786062] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589412.525543647] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589412.525642468] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589412.525666985] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589412.537866998] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589412.538299249] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589413.524729912] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589413.524831730] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589413.524852003] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589413.537797130] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589414.528681046] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589414.528772340] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589414.528799512] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589414.551458214] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589414.551659388] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589414.652423709] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589414.652477227] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589414.652514091] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589414.680005094] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589419.680274567] [recoveries_server]: wait completed successfully
+[planner_server-4] [WARN] [1735589419.721825814] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589419.721921710] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589419.721949923] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589419.737764839] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589420.525139751] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589420.525214617] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589420.525234746] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589420.538042373] [recoveries_server]: Attempting backup
+[recoveries_server-5] [WARN] [1735589420.538323614] [recoveries_server]: Collision Ahead - Exiting BackUp
+[recoveries_server-5] [WARN] [1735589420.538377718] [recoveries_server]: backup failed
+[recoveries_server-5] [WARN] [1735589420.538409192] [recoveries_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589420.567775273] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589420.568107495] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589421.528695792] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589421.528779419] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589421.528804051] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589421.547816015] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589422.526938345] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589422.527011383] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589422.527031399] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589422.537951964] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589422.538141572] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589422.638404506] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589422.638459533] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589422.638474292] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589422.667955041] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589427.668230814] [recoveries_server]: wait completed successfully
+[planner_server-4] [WARN] [1735589427.717271488] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589427.717351814] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589427.717371561] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589427.727823932] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589428.527667505] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589428.527753739] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589428.527773586] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589428.548055596] [recoveries_server]: Attempting backup
+[recoveries_server-5] [WARN] [1735589428.548281567] [recoveries_server]: Collision Ahead - Exiting BackUp
+[recoveries_server-5] [WARN] [1735589428.548317052] [recoveries_server]: backup failed
+[recoveries_server-5] [WARN] [1735589428.548335211] [recoveries_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-3] [INFO] [1735589428.577739912] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1735589428.578024576] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589429.528221920] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589429.528835808] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589429.528864785] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589429.537786761] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589430.531529747] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589430.531623746] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589430.531668877] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589430.552008873] [recoveries_server]: Attempting spin
+[recoveries_server-5] [INFO] [1735589430.552122051] [recoveries_server]: Turning 1.57 for spin recovery.
+[recoveries_server-5] [WARN] [1735589430.652384535] [recoveries_server]: Collision Ahead - Exiting Spin
+[recoveries_server-5] [WARN] [1735589430.652439629] [recoveries_server]: spin failed
+[recoveries_server-5] [WARN] [1735589430.652459491] [recoveries_server]: [spin] [ActionServer] Aborting handle.
+[recoveries_server-5] [INFO] [1735589430.679044131] [recoveries_server]: Attempting wait
+[recoveries_server-5] [INFO] [1735589435.679313031] [recoveries_server]: wait completed successfully
+[planner_server-4] [WARN] [1735589435.723101349] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589435.723178622] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589435.723203893] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1735589435.737799794] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-4] [WARN] [1735589436.523635426] [planner_server]: GridBased: failed to create plan with tolerance 0.50.
+[planner_server-4] [WARN] [1735589436.523720570] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-2.04, -0.11)
+[planner_server-4] [WARN] [1735589436.523739898] [planner_server_rclcpp_node]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-6] [ERROR] [1735589436.547624323] [bt_navigator]: Goal failed
+[bt_navigator-6] [WARN] [1735589436.547676384] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
