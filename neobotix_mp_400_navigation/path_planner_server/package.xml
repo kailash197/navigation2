@@ -4,7 +4,7 @@
   <name>path_planner_server</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="duckfrost@gmail.com">tgrip</maintainer>
+  <maintainer email="k.khadk343@gmail.com">tgrip</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
