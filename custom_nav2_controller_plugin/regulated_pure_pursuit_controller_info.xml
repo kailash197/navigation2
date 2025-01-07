@@ -1,0 +1,7 @@
+<library path="custom_nav2_controller_plugin_core">
+    <class name="RegulatedPurePursuitControllerPlugin" type="custom_nav2_controller_plugin_namespace_name::RegulatedPurePursuitController" base_class_type="nav2_core::Controller">
+        <description>
+            Pure Pursuit Controller
+        </description>
+    </class>
+</library>
